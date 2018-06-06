@@ -16,8 +16,8 @@ import java.util.Map;
 import java.util.Set;
 
 @RestController
-public class WelcomeController {
-    private static final Logger log = LoggerFactory.getLogger(WelcomeController.class);
+public class PobiController {
+    private static final Logger log = LoggerFactory.getLogger(PobiController.class);
 
     @GetMapping("")
     public String welcome() {
@@ -45,7 +45,6 @@ public class WelcomeController {
         makeHeaders.set("accept-language", "ko,en-US;q=0.9,en;q=0.8,it-IT;q=0.7,it;q=0.6,ja;q=0.5");
         makeHeaders.set("cache-Control", "no-cache");
         makeHeaders.set("connection", "keep-alive");
-//        makeHeaders.set("content-Length", "848");
         makeHeaders.set("content-type", "text/plain;charset=UTF-8");
         makeHeaders.set("host", "nmsg.nicovideo.jp");
         makeHeaders.set("origin", "http://www.nicovideo.jp");
@@ -62,16 +61,8 @@ public class WelcomeController {
         HttpHeaders responseHeaders = new HttpHeaders();
         responseHeaders.set("Content-Type", "text/json; charset=UTF-8");
 
-//        Access-Control-Allow-Headers: Content-Type
-//        Access-Control-Allow-Methods: POST,GET,OPTIONS,HEAD
-//        Access-Control-Allow-Origin: *
-//        Cache-Control: max-age=0
-//        Connection: Keep-Alive
-//        Content-Encoding: gzip
-//        Content-Length: 13775
-//        Content-Type: text/json; charset=UTF-8
-//        Keep-Alive: timeout=15, max=100
-//        Vary: Accept-Encoding
+//        ParameterizedTypeReference<Map<String, Object>> typeRef = new ParameterizedTypeReference<Map<String, Object>>() {};
+//        ResponseEntity<Map<String, Object>> responseEntity = restTemplate.exchange("http://pobi.god/api.json", HttpMethod.POST, httpEntity, typeRef);
 
         ResponseEntity<String> responseEntity = restTemplate.postForEntity("http://pobi.god/api.json", httpEntity, String.class);
 
