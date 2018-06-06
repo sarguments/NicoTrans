@@ -1,3 +1,3 @@
 # nicoTransPrepare
 
-## 정말 만들고 싶다
+## contribute by larry, gram(aka godDurin)
