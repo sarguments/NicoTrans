@@ -35,13 +35,6 @@ public class PobiController {
     private static Translate translate = TranslateOptions.newBuilder().build().getService();
     private ObjectMapper mapper = new ObjectMapper();
 
-    @GetMapping("")
-    public String welcome() {
-        log.info("WOW!");
-
-        return "Hello";
-    }
-
     private static List<Translation> translateList(List<String> sourceTexts) {
         Translate.TranslateOption srcLang = Translate.TranslateOption.sourceLanguage(JAPAN);
         Translate.TranslateOption tgtLang = Translate.TranslateOption.targetLanguage(KOREA);
@@ -52,6 +45,13 @@ public class PobiController {
         // 나눠진 리스트를 스트림으로 각각 번역 후 합쳐서 리스트로 리턴
         return listOfList.stream().map(list -> translate.translate(list, srcLang, tgtLang))
                 .flatMap(List::stream).collect(Collectors.toList());
+    }
+
+    @GetMapping("")
+    public String welcome() {
+        log.info("WOW!");
+
+        return "Hello";
     }
 
     @PostMapping("/api.json")

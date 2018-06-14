@@ -1,24 +1,24 @@
 package com.example.demo;
 
-import java.util.HashMap;
+import java.util.Map;
 
 public class Pair {
-    private HashMap<String, Object> contents;
+    private Map<String, Object> contents;
     private String msg;
 
     public Pair() {
     }
 
-    public Pair(HashMap<String, Object> contents, String msg) {
+    public Pair(Map<String, Object> contents, String msg) {
         this.contents = contents;
         this.msg = msg;
     }
 
-    public HashMap<String, Object> getContents() {
+    public Map<String, Object> getContents() {
         return contents;
     }
 
-    public void setContents(HashMap<String, Object> contents) {
+    public void setContents(Map<String, Object> contents) {
         this.contents = contents;
     }
 
