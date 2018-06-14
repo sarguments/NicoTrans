@@ -1,11 +1,11 @@
-package com.example.demo.controllers;
+package com.saru.nicotrans.controllers;
 
-import com.example.demo.Pair;
-import com.example.demo.TranslateUtil;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.cloud.translate.Translation;
+import com.saru.nicotrans.Pair;
+import com.saru.nicotrans.TranslateUtil;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

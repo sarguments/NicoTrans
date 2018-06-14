@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.saru.nicotrans;
 
 import com.google.cloud.translate.Translate;
 import com.google.cloud.translate.TranslateOptions;

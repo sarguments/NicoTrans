@@ -1,4 +1,4 @@
-package com.example.demo.filters;
+package com.saru.nicotrans.filters;
 
 import org.springframework.stereotype.Component;
 
