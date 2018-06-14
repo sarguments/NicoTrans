@@ -22,6 +22,6 @@ server {
 
 <Host config>
 /etc/hosts
-127.0.0.1   nmsg.nicovideo.jp
-202.248.252.234 pobi.god
+127.0.0.1   nmsg닷nicovideo.jp
+202닷248닷252닷234 pobi.god
 ```
