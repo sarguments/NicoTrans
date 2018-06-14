@@ -1,13 +1,11 @@
 package com.example.demo.controllers;
 
 import com.example.demo.Pair;
+import com.example.demo.TranslateUtil;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.cloud.translate.Translate;
-import com.google.cloud.translate.TranslateOptions;
 import com.google.cloud.translate.Translation;
-import com.google.common.collect.Lists;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,31 +19,15 @@ import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
 import java.util.*;
-import java.util.stream.Collectors;
 
 @RestController
 public class PobiController {
     private static final String CONTENT = "content";
     private static final String CHAT = "chat";
     private static final String COMMENT_SERVER_URL = "http://pobi.god/api.json";
+
     private static final Logger log = LoggerFactory.getLogger(PobiController.class);
-    private static final String JAPAN = "ja";
-    private static final String KOREA = "ko";
-    private static final int SPLIT_SIZE = 100;
-    private static Translate translate = TranslateOptions.newBuilder().build().getService();
     private ObjectMapper mapper = new ObjectMapper();
-
-    private static List<Translation> translateList(List<String> sourceTexts) {
-        Translate.TranslateOption srcLang = Translate.TranslateOption.sourceLanguage(JAPAN);
-        Translate.TranslateOption tgtLang = Translate.TranslateOption.targetLanguage(KOREA);
-
-        // GUAVA 활용해서 100개 단위로 나눈다
-        List<List<String>> listOfList = Lists.partition(sourceTexts, SPLIT_SIZE);
-
-        // 나눠진 리스트를 스트림으로 각각 번역 후 합쳐서 리스트로 리턴
-        return listOfList.stream().map(list -> translate.translate(list, srcLang, tgtLang))
-                .flatMap(List::stream).collect(Collectors.toList());
-    }
 
     @GetMapping("")
     public String welcome() {
@@ -87,7 +69,7 @@ public class PobiController {
         log.info("toTransList size : {}", toTransTexts.size());
 
         // 추출한 리스트 번역
-        List<Translation> translatedTexts = translateList(toTransTexts);
+        List<Translation> translatedTexts = TranslateUtil.translateList(toTransTexts);
         log.info("translatedList size : {}", translatedTexts.size());
 
         // 번역 텍스트 다시 put
@@ -107,6 +89,7 @@ public class PobiController {
         // 응답 content type 설정 후 브라우저로 ResponseEntity 리턴
         return new ResponseEntity<>(translatedJson, makeResponseHeaders(), HttpStatus.OK);
     }
+
 
     private HttpHeaders makeResponseHeaders() {
         HttpHeaders responseHeaders = new HttpHeaders();
