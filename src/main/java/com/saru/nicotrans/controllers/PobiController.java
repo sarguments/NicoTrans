@@ -24,7 +24,6 @@ import java.util.Set;
 public class PobiController {
     private static final String COMMENT_SERVER_URL = "http://pobi.god/api.json";
 
-
     private static final Logger log = LoggerFactory.getLogger(PobiController.class);
 
     @GetMapping("")
@@ -90,6 +89,4 @@ public class PobiController {
         // 응답 content type 설정 후 브라우저로 ResponseEntity 리턴
         return new ResponseEntity<>(translatedJson, networkService.makeResponseHeaders(), HttpStatus.OK);
     }
-
-
 }

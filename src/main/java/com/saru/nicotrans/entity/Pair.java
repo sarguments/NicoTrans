@@ -7,7 +7,7 @@ public class Pair {
     public Pair() {
     }
 
-    public Pair(Contents contents, String msg) {
+    Pair(Contents contents, String msg) {
         this.contents = contents;
         this.msg = msg;
     }
