@@ -75,8 +75,8 @@ public class ReflectionTest {
         }
     }
 
-    public static class PersonController {
-        public String add(Person person) {
+    static class PersonController {
+        String add(Person person) {
             System.out.println("Controller Person : " + person);
             return "/persons";
         }

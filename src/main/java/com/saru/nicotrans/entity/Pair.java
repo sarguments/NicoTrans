@@ -1,24 +1,22 @@
-package com.saru.nicotrans;
-
-import java.util.Map;
+package com.saru.nicotrans.entity;
 
 public class Pair {
-    private Map<String, Object> contents;
+    private Contents contents;
     private String msg;
 
     public Pair() {
     }
 
-    public Pair(Map<String, Object> contents, String msg) {
+    public Pair(Contents contents, String msg) {
         this.contents = contents;
         this.msg = msg;
     }
 
-    public Map<String, Object> getContents() {
+    public Contents getContents() {
         return contents;
     }
 
-    public void setContents(Map<String, Object> contents) {
+    public void setContents(Contents contents) {
         this.contents = contents;
     }
 

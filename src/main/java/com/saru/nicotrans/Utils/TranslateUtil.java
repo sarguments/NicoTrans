@@ -1,4 +1,4 @@
-package com.saru.nicotrans;
+package com.saru.nicotrans.Utils;
 
 import com.google.cloud.translate.Translate;
 import com.google.cloud.translate.TranslateOptions;
@@ -13,7 +13,7 @@ public class TranslateUtil {
     private static final String KOREA = "ko";
     private static final int SPLIT_SIZE = 100;
 
-    private static Translate translate = TranslateOptions.newBuilder().build().getService();
+    private static final Translate translate = TranslateOptions.newBuilder().build().getService();
 
     private TranslateUtil() {
     }
