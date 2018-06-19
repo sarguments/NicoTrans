@@ -1,12 +1,12 @@
 package com.saru.nicotrans.controllers;
 
 import com.google.cloud.translate.Translation;
-import com.saru.nicotrans.Utils.LogUtil;
-import com.saru.nicotrans.Utils.TranslateUtil;
 import com.saru.nicotrans.entity.Item;
 import com.saru.nicotrans.entity.Pair;
 import com.saru.nicotrans.service.ManipulateService;
 import com.saru.nicotrans.service.NetworkService;
+import com.saru.nicotrans.utils.LogUtil;
+import com.saru.nicotrans.utils.TranslateUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpEntity;
@@ -40,10 +40,14 @@ public class PobiController {
         ManipulateService manipulateService = new ManipulateService();
         NetworkService networkService = new NetworkService();
 
+        // 요청 헤더 출력
         Set<Map.Entry<String, List<String>>> headers = httpHeaders.entrySet();
         for (Map.Entry<String, List<String>> header: headers) {
             log.info("key : value = {} : {}", header.getKey(), header.getValue());
         }
+
+        // 요청 json 출력
+        log.info("response json : {}", json);
 
         // 요청 헤더 생성 후 json과 같이 httpEntity 조합
         HttpEntity<String> httpEntity = new HttpEntity<>(json, networkService.makeHeaders(httpHeaders));

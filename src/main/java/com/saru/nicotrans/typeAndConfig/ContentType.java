@@ -1,4 +1,4 @@
-package com.saru.nicotrans;
+package com.saru.nicotrans.typeAndConfig;
 
 public enum ContentType {
     CHAT("chat"),

@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import static com.saru.nicotrans.ContentType.CONTENT;
+import static com.saru.nicotrans.typeAndConfig.ContentType.CONTENT;
 
 public class ManipulateService {
     private static final Logger log = LoggerFactory.getLogger(ManipulateService.class);

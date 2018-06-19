@@ -1,4 +1,4 @@
-package com.saru.nicotrans.Utils;
+package com.saru.nicotrans.utils;
 
 import com.saru.nicotrans.entity.Item;
 import org.slf4j.Logger;
@@ -7,8 +7,8 @@ import org.slf4j.LoggerFactory;
 import java.util.List;
 import java.util.Optional;
 
-import static com.saru.nicotrans.ContentType.CHAT;
-import static com.saru.nicotrans.ContentType.CONTENT;
+import static com.saru.nicotrans.typeAndConfig.ContentType.CHAT;
+import static com.saru.nicotrans.typeAndConfig.ContentType.CONTENT;
 
 public class LogUtil {
     private static final Logger log = LoggerFactory.getLogger(LogUtil.class);
