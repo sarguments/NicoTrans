@@ -30,7 +30,7 @@ public class PobiController {
     public String welcome() {
         log.info("WOW!");
 
-        return "Hello";
+        return "Now Running...";
     }
 
     @PostMapping("/api.json")
