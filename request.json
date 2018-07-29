@@ -1,0 +1,68 @@
+[{
+    "ping": {
+        "content": "rs:0"
+    }
+}, {
+    "ping": {
+        "content": "ps:0"
+    }
+}, {
+    "thread": {
+        "thread": "1227651486",
+        "version": "20061206",
+        "fork": 1,
+        "language": 0,
+        "user_id": "12797893",
+        "res_from": -1000,
+        "with_global": 1,
+        "scores": 1,
+        "nicoru": 0,
+        "userkey": "1530108302.~1~7FXb3CeqVlb6qFQyAMY20unUXDF9Q4X4rZlqVXtFoHw"
+    }
+}, {
+    "ping": {
+        "content": "pf:0"
+    }
+}, {
+    "ping": {
+        "content": "ps:1"
+    }
+}, {
+    "thread": {
+        "thread": "1227651486",
+        "version": "20090904",
+        "fork": 0,
+        "language": 0,
+        "user_id": "12797893",
+        "with_global": 1,
+        "scores": 1,
+        "nicoru": 0,
+        "userkey": "1530108302.~1~7FXb3CeqVlb6qFQyAMY20unUXDF9Q4X4rZlqVXtFoHw"
+    }
+}, {
+    "ping": {
+        "content": "pf:1"
+    }
+}, {
+    "ping": {
+        "content": "ps:2"
+    }
+}, {
+    "thread_leaves": {
+        "thread": "1227651486",
+        "language": 0,
+        "user_id": "12797893",
+        "content": "0-2:100,250",
+        "scores": 1,
+        "nicoru": 0,
+        "userkey": "1530108302.~1~7FXb3CeqVlb6qFQyAMY20unUXDF9Q4X4rZlqVXtFoHw"
+    }
+}, {
+    "ping": {
+        "content": "pf:2"
+    }
+}, {
+    "ping": {
+        "content": "rf:0"
+    }
+}]

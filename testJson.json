@@ -1,0 +1,3772 @@
+[
+  {
+    "ping": {
+      "content": "rs:0"
+    }
+  },
+  {
+    "ping": {
+      "content": "ps:0"
+    }
+  },
+  {
+    "thread": { // 응답의 thread
+      "resultcode": 0, // 0이면 성공
+      "thread": "1227651486",
+      "fork": 1,
+      "server_time": 1528790701,
+      "last_res": 18,
+      "ticket": "1227809033",
+      "revision": 1
+    }
+  },
+  {
+    "global_num_res": {
+      "thread": "1227651486",
+      "num_res": 440
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 1,
+      "vpos": 207, // 코멘트의 동영상 시간상 위치 1vpos = 10 밀리 초, 100vpos = 1 초 
+      "date": 1227809033, // 게시 시간의 UNIX 시간 
+      "mail": "green shita small", // 코멘트 속성
+      "content": "Love, I`ve got to feel it" // 코멘트 본문
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 2,
+      "vpos": 531,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "If you put your trust in me"
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 3,
+      "vpos": 838,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "I know what my life would be"
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 4,
+      "vpos": 1178,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "Oh, you are all I ever need"
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 5,
+      "vpos": 1683,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "I try to hear what you say"
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 6,
+      "vpos": 2278,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "So I pray"
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 7,
+      "vpos": 2492,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "But you`re fadin away"
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 8,
+      "vpos": 2955,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "Don`t go and break my fragile heart"
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 9,
+      "vpos": 3582,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "We won`t fall apart"
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 10,
+      "vpos": 3898,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "`Cause you`re my only star"
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 11,
+      "vpos": 4917,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "I wonder why my tears come at night"
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 12,
+      "vpos": 5289,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "Calling you, so like a little child"
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 13,
+      "vpos": 5643,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "All the things you have in mind"
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 14,
+      "vpos": 5963,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "I wish I could see you insides"
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 15,
+      "vpos": 6308,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "My love, you`ve got to feel it"
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 16,
+      "vpos": 6630,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "And if we put our trust in you and me"
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 17,
+      "vpos": 6982,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "You know what our lives would be"
+    }
+  },
+  {
+    "chat": {
+      "thread": "1227651486",
+      "fork": 1,
+      "no": 18,
+      "vpos": 7283,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "Oh, you are the one I believe"
+    }
+  },
+  {
+    "ping": {
+      "content": "pf:0"
+    }
+  },
+  {
+    "ping": {
+      "content": "ps:1"
+    }
+  },
+  {
+    "thread": {
+      "resultcode": 0,
+      "thread": "1227651486",
+      "server_time": 1528790701,
+      "last_res": 440,
+      "ticket": "0x2bc733c7",
+      "revision": 1
+    }
+  },
+  {
+    "leaf": {
+      "thread": "1227651486",
+      "count": 386
+    }
+  },
+  {
+    "leaf": {
+      "thread": "1227651486",
+      "leaf": 1,
+      "count": 54
+    }
+  },
+  {
+    "global_num_res": {
+      "thread": "1227651486",
+      "num_res": 440
+    }
+  },
+  {
+    "ping": {
+      "content": "pf:1"
+    }
+  },
+  {
+    "ping": {
+      "content": "ps:2"
+    }
+  },
+  {
+    "thread": {
+      "resultcode": 0,
+      "thread": "1227651486",
+      "server_time": 1528790701,
+      "last_res": 440,
+      "ticket": "0x2bc733c7",
+      "revision": 1
+    }
+  },
+  {
+    "chat": {
+      "date": "1227731022",
+      "no": "23",
+      "mail": "small 184",
+      "user_id": "0A9Jzn9-TUF2O1FYjZX9P051jwE",
+      "vpos": "8058",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "最後まで見るといいよ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1227775914",
+      "no": "26",
+      "mail": "184",
+      "user_id": "Psrt_OLMUoT2Cxr6_PDLw2ur8js",
+      "vpos": "8907",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "見るに耐えないｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1227782052",
+      "no": "29",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "5r_Q5ix_xJj2YgNtLdu6nYkbq_Y",
+      "vpos": "6950",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "なるほど。凝っているな。"
+    }
+  },
+  {
+    "chat": {
+      "date": "1227782066",
+      "no": "30",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "5r_Q5ix_xJj2YgNtLdu6nYkbq_Y",
+      "vpos": "8390",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "しかし何人が辿り着けるか・・・・"
+    }
+  },
+  {
+    "chat": {
+      "date": "1227795739",
+      "no": "35",
+      "user_id": "1413044",
+      "vpos": "9617",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "？"
+    }
+  },
+  {
+    "chat": {
+      "date": "1227810007",
+      "no": "37",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "jE4ZrB7qNrjFb0KKClv_Xo5RhPE",
+      "vpos": "9312",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "みえねえｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1227880637",
+      "no": "44",
+      "mail": "184",
+      "user_id": "77kVhfFDWDuXV-OLMBx5aEJxxpI",
+      "vpos": "7153",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "ズレすぎワロタwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1227924632",
+      "no": "46",
+      "mail": "184",
+      "user_id": "rtC7s84pVT5Wlnqk-_pWmRTcZZc",
+      "vpos": "6093",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "こええええ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1227924659",
+      "no": "47",
+      "mail": "184",
+      "user_id": "rtC7s84pVT5Wlnqk-_pWmRTcZZc",
+      "vpos": "8793",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "低スペックだと逆に見づらいｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1227924674",
+      "no": "48",
+      "mail": "184",
+      "user_id": "rtC7s84pVT5Wlnqk-_pWmRTcZZc",
+      "vpos": "9999",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "ナンなんだよここｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1228133007",
+      "no": "56",
+      "mail": "184",
+      "user_id": "bdHorJA3IXAkn5y5YyK0eKElvOg",
+      "vpos": "9973",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "ｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1228198400",
+      "no": "59",
+      "mail": "184",
+      "user_id": "tmvp0baUVzczGJkymOazhkBvZIM",
+      "vpos": "6957",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "酷い"
+    }
+  },
+  {
+    "chat": {
+      "date": "1228204374",
+      "no": "65",
+      "mail": "184",
+      "user_id": "kgCLnzIqEZx7X6NkzwREcQi3BdE",
+      "vpos": "6780",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "目細めると普通ｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1228204384",
+      "no": "66",
+      "mail": "184",
+      "user_id": "kgCLnzIqEZx7X6NkzwREcQi3BdE",
+      "vpos": "7740",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "モザイクｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1228204393",
+      "no": "67",
+      "mail": "184",
+      "user_id": "kgCLnzIqEZx7X6NkzwREcQi3BdE",
+      "vpos": "8600",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "あれ？ｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1228204403",
+      "no": "68",
+      "mail": "184",
+      "user_id": "kgCLnzIqEZx7X6NkzwREcQi3BdE",
+      "vpos": "9641",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "？"
+    }
+  },
+  {
+    "chat": {
+      "date": "1229340994",
+      "no": "82",
+      "mail": "184",
+      "user_id": "Kre52wRm0AkZDzNLpL04YDfO9yg",
+      "vpos": "6901",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "確かに目細めたら中々ｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1229766521",
+      "no": "87",
+      "mail": "184",
+      "user_id": "bGLse2GMvZjp_3OvkqQkdR8rcnQ",
+      "vpos": "9670",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "?"
+    }
+  },
+  {
+    "chat": {
+      "date": "1229891412",
+      "no": "88",
+      "mail": "small 184",
+      "user_id": "L6IIZw1pqjARRDxyEQU75iJsH2A",
+      "vpos": "9805",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "実は見終わると高音質Ebullient futureの動画へと飛ばされる仕様だったという。でもリンク先が今はｓ（ｒ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1230227444",
+      "no": "98",
+      "mail": "184",
+      "user_id": "i-7tk0pT0NuEYilRI2FvEjUE9iw",
+      "vpos": "7558",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "神!!!"
+    }
+  },
+  {
+    "chat": {
+      "date": "1230227455",
+      "no": "99",
+      "mail": "184",
+      "user_id": "i-7tk0pT0NuEYilRI2FvEjUE9iw",
+      "vpos": "8676",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "神降臨了"
+    }
+  },
+  {
+    "chat": {
+      "date": "1230910037",
+      "no": "113",
+      "mail": "184",
+      "user_id": "9w3VtH5fMWmfJ1xBYjZIlRWeNmU",
+      "vpos": "7597",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "ほとんどモザイクで見えない（泣"
+    }
+  },
+  {
+    "chat": {
+      "date": "1231633968",
+      "no": "127",
+      "mail": "184",
+      "user_id": "G2CJZDlQaQULwfLJMlBjs02Y-jY",
+      "vpos": "6686",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "寧ろ携帯レベル!?"
+    }
+  },
+  {
+    "chat": {
+      "date": "1231633991",
+      "no": "128",
+      "mail": "184",
+      "user_id": "G2CJZDlQaQULwfLJMlBjs02Y-jY",
+      "vpos": "8954",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "目が痛いですサー"
+    }
+  },
+  {
+    "chat": {
+      "date": "1231845089",
+      "no": "138",
+      "mail": "184",
+      "user_id": "tyVGlmC9KA-0u-W-hT1CKhSivgg",
+      "vpos": "8271",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "ピーぴーいってるぞｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1231845702",
+      "no": "140",
+      "mail": "184",
+      "user_id": "_8CGZ9i2IS2FoqIsP1kfI5KPkjQ",
+      "vpos": "6633",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "かなりずれてる"
+    }
+  },
+  {
+    "chat": {
+      "date": "1231845740",
+      "no": "141",
+      "mail": "184",
+      "user_id": "_8CGZ9i2IS2FoqIsP1kfI5KPkjQ",
+      "vpos": "9827",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "画質良い"
+    }
+  },
+  {
+    "chat": {
+      "date": "1232938517",
+      "no": "156",
+      "mail": "184",
+      "user_id": "eilMcWlpH_2oanHPzpBpDhDGyUk",
+      "vpos": "7902",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "あれ・・・フルボリュームのはずだが・・・"
+    }
+  },
+  {
+    "chat": {
+      "date": "1237706683",
+      "no": "171",
+      "mail": "184",
+      "user_id": "aNz7kreRSpgzphQPaLP4r5GtxKU",
+      "vpos": "9231",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "これはひどい"
+    }
+  },
+  {
+    "chat": {
+      "date": "1245459758",
+      "no": "191",
+      "mail": "184",
+      "user_id": "syKiL4WtXmFAoLLaCoG7yQyI6j4",
+      "vpos": "2440",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "しかもズレまくってるｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1245498646",
+      "no": "192",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "0S9PsqPWkx7Szd4gowxu6ZePEYw",
+      "vpos": "1653",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "超画質じゃねえかｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1245542881",
+      "no": "193",
+      "mail": "184",
+      "user_id": "pFDc4SLGu74QTgcTj9yT-fQtdDw",
+      "vpos": "1518",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "すっげえｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1245587425",
+      "no": "194",
+      "mail": "184",
+      "user_id": "dy2UIvKmDHfBZCwaj5kVowUyQA4",
+      "vpos": "1318",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "確かに超画質ｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1245587442",
+      "no": "195",
+      "mail": "184",
+      "user_id": "dy2UIvKmDHfBZCwaj5kVowUyQA4",
+      "vpos": "2988",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "モザイクかかりまくりじゃねえかｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1245942323",
+      "no": "196",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "8-Td5tcuk6hq9inuLQ97ugNAjzQ",
+      "vpos": "6449",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "corei7でｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1246118790",
+      "no": "197",
+      "mail": "184",
+      "user_id": "cuwgOkv2u_nGjfVmIXvlCTb0u5s",
+      "vpos": "5847",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "誰だマイリスいれたのｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1246271972",
+      "no": "198",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "UkNZ1auAQ5tq6p3kxQPFqiZlOl4",
+      "vpos": "1230",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "wwwwwwwwwwwwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1246272001",
+      "no": "199",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "UkNZ1auAQ5tq6p3kxQPFqiZlOl4",
+      "vpos": "2144",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "神速バッファ理解ｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1246965977",
+      "no": "200",
+      "deleted": "2",
+      "vpos": "720",
+      "anonymity": "1",
+      "thread": "1227651486"
+    }
+  },
+  {
+    "chat": {
+      "date": "1247292372",
+      "no": "201",
+      "mail": "184",
+      "user_id": "cJJMqaPqukypchxTioEL2MKa108",
+      "vpos": "964",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "画質吹いたw"
+    }
+  },
+  {
+    "chat": {
+      "date": "1247292396",
+      "no": "202",
+      "mail": "184",
+      "user_id": "cJJMqaPqukypchxTioEL2MKa108",
+      "vpos": "3402",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ケータイ画質ww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1247292442",
+      "no": "203",
+      "mail": "184",
+      "user_id": "cJJMqaPqukypchxTioEL2MKa108",
+      "vpos": "7957",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "神速バッファｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1248298310",
+      "no": "204",
+      "mail": "184",
+      "user_id": "RrSA4dcRCKsb_SPp3XoUvzUWYnI",
+      "vpos": "5344",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ネタですか"
+    }
+  },
+  {
+    "chat": {
+      "date": "1249331882",
+      "no": "205",
+      "mail": "184",
+      "user_id": "QfLE07K6a4S8kOsnRIhYMpJ64Ko",
+      "vpos": "565",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "はいいいい！？"
+    }
+  },
+  {
+    "chat": {
+      "date": "1249331897",
+      "no": "206",
+      "mail": "184",
+      "user_id": "QfLE07K6a4S8kOsnRIhYMpJ64Ko",
+      "vpos": "898",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "最低画質ｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1249355658",
+      "no": "207",
+      "mail": "184",
+      "user_id": "eYp3W6DbmzrbNFbVBB0HQosoCTo",
+      "vpos": "6506",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "ELISA 2nd LIVE　オメ☆"
+    }
+  },
+  {
+    "chat": {
+      "date": "1250394375",
+      "no": "208",
+      "mail": "184",
+      "user_id": "-k3m6UyI5YurwqhXfoLsoo5RUp4",
+      "vpos": "782",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "wwwwwwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1250515656",
+      "no": "209",
+      "deleted": "2",
+      "vpos": "746",
+      "anonymity": "1",
+      "thread": "1227651486"
+    }
+  },
+  {
+    "chat": {
+      "date": "1253107672",
+      "no": "210",
+      "mail": "184",
+      "user_id": "sZt_GutrlzXQ4Olb1nmUvFWmPUE",
+      "vpos": "2813",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "なんてモザイクｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1253247665",
+      "no": "211",
+      "mail": "184",
+      "user_id": "GFXalHy-g1nX-jqlpSOx64wyRls",
+      "vpos": "394",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "これ何話？"
+    }
+  },
+  {
+    "chat": {
+      "date": "1253518941",
+      "no": "212",
+      "mail": "184",
+      "user_id": "c_iOVpoTFXyf6zZV6V0dHqRXXnM",
+      "vpos": "2628",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "クオリティの高いジグソーパズル"
+    }
+  },
+  {
+    "chat": {
+      "date": "1253881960",
+      "no": "213",
+      "mail": "184",
+      "user_id": "aLO-OJVtmJQGUNXjQr6Y52SAVdY",
+      "vpos": "5514",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "洗濯屋ケンちゃん"
+    }
+  },
+  {
+    "chat": {
+      "date": "1253882244",
+      "no": "214",
+      "mail": "184",
+      "user_id": "-qaAPwcEaOgOH7ndZPX2yz26w9k",
+      "vpos": "1484",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ひどいｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1253906285",
+      "no": "215",
+      "deleted": "2",
+      "vpos": "644",
+      "anonymity": "1",
+      "thread": "1227651486"
+    }
+  },
+  {
+    "chat": {
+      "date": "1253906351",
+      "no": "216",
+      "mail": "184",
+      "user_id": "MwE6E8rcrXDP0Eh-wOBcedEla8Y",
+      "vpos": "1620",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "超画質すげぇ・・・"
+    }
+  },
+  {
+    "chat": {
+      "date": "1253917877",
+      "no": "217",
+      "mail": "184",
+      "user_id": "j8IwFFSx_KqUAWqWy8Qh_nTvqqM",
+      "vpos": "2144",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "AMラジオ音質"
+    }
+  },
+  {
+    "chat": {
+      "date": "1256727926",
+      "no": "218",
+      "mail": "184",
+      "user_id": "z-6Ft4kQq7-VTGY4rdiNsTByEtQ",
+      "vpos": "2420",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "みにくｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1257960149",
+      "no": "219",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "L-K1oq-bLgyezDCGO3kqzvY6cNM",
+      "vpos": "3607",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "あれ…俺ケータイで見てたっけ…？"
+    }
+  },
+  {
+    "chat": {
+      "date": "1258367932",
+      "no": "220",
+      "deleted": "2",
+      "vpos": "3097",
+      "anonymity": "1",
+      "thread": "1227651486"
+    }
+  },
+  {
+    "chat": {
+      "date": "1258395597",
+      "no": "221",
+      "mail": "184",
+      "user_id": "t_JT0A0xTPKGpdO-vik1ef98vls",
+      "vpos": "290",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "神速吹いたｗｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1258514521",
+      "no": "222",
+      "mail": "184",
+      "user_id": "sKrQ4IoxBevFrpdCgVcupu1ZDYE",
+      "vpos": "2634",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "マイリス入れてる６人何者だｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1258530728",
+      "no": "223",
+      "mail": "184",
+      "user_id": "UhPbW_BaGOZmqHprn5DPNRnprHk",
+      "vpos": "1460",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "これはｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1258678809",
+      "no": "224",
+      "mail": "184",
+      "user_id": "AoI91CgNo36Ul5sZJNanMTWIc14",
+      "vpos": "640",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1258678819",
+      "no": "225",
+      "mail": "184",
+      "user_id": "AoI91CgNo36Ul5sZJNanMTWIc14",
+      "vpos": "1638",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "素晴らしい"
+    }
+  },
+  {
+    "chat": {
+      "date": "1258732181",
+      "no": "226",
+      "mail": "184",
+      "user_id": "ODb6n49RcaFPjhIWyNRzbM2chZc",
+      "vpos": "2321",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "otozure"
+    }
+  },
+  {
+    "chat": {
+      "date": "1258732188",
+      "no": "227",
+      "mail": "184",
+      "user_id": "ODb6n49RcaFPjhIWyNRzbM2chZc",
+      "vpos": "3035",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "音ｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1258732195",
+      "no": "228",
+      "mail": "184",
+      "user_id": "ODb6n49RcaFPjhIWyNRzbM2chZc",
+      "vpos": "3769",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "鬼畜だろｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1258732245",
+      "no": "229",
+      "mail": "184",
+      "user_id": "ODb6n49RcaFPjhIWyNRzbM2chZc",
+      "vpos": "8793",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "いやいやｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1258732253",
+      "no": "230",
+      "mail": "184",
+      "user_id": "ODb6n49RcaFPjhIWyNRzbM2chZc",
+      "vpos": "9589",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "子のも"
+    }
+  },
+  {
+    "chat": {
+      "date": "1258867493",
+      "no": "231",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "GJJkm6aFN2j9xtJigwXNEgA7HoI",
+      "vpos": "5316",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "今、アートを感じた"
+    }
+  },
+  {
+    "chat": {
+      "date": "1258981955",
+      "no": "232",
+      "mail": "184",
+      "user_id": "IGD9oG1Js9QKfH7cyYzBv0vH8-w",
+      "vpos": "1303",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ワロタ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1259394221",
+      "no": "233",
+      "mail": "184",
+      "user_id": "SyxJOIhtCPX2BTrBVKWP9NwkiaI",
+      "vpos": "1400",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "うえあ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1259458958",
+      "no": "234",
+      "mail": "184",
+      "user_id": "5l0Y1XvobeLLovVS5t5FFM1Eyvg",
+      "vpos": "4874",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "平成10年でつか？"
+    }
+  },
+  {
+    "chat": {
+      "date": "1259501540",
+      "no": "235",
+      "mail": "184",
+      "user_id": "q2JHfwVZuSQfoLpkppjUK6KdFEo",
+      "vpos": "5218",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "確かに超画質"
+    }
+  },
+  {
+    "chat": {
+      "date": "1260647685",
+      "no": "236",
+      "mail": "184",
+      "user_id": "8SiPaDbuQNEtFHZJPHcOttGDWoA",
+      "vpos": "625",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "wwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1260647693",
+      "no": "237",
+      "mail": "184",
+      "user_id": "8SiPaDbuQNEtFHZJPHcOttGDWoA",
+      "vpos": "1465",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "超ひどいｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1260796648",
+      "no": "238",
+      "mail": "184",
+      "user_id": "7-HGYecpesHbhGCF0DpiuWD65q4",
+      "vpos": "1730",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ひどすぎるｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1261060476",
+      "no": "239",
+      "mail": "184",
+      "user_id": "C2VyWYoc9bE99-WvdZatRRcGUDE",
+      "vpos": "364",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "！？"
+    }
+  },
+  {
+    "chat": {
+      "date": "1261060484",
+      "no": "240",
+      "mail": "184",
+      "user_id": "C2VyWYoc9bE99-WvdZatRRcGUDE",
+      "vpos": "1213",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ひでぇえええええええｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1261060498",
+      "no": "241",
+      "mail": "184",
+      "user_id": "C2VyWYoc9bE99-WvdZatRRcGUDE",
+      "vpos": "2564",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "歪みなさすぎｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1261210205",
+      "no": "242",
+      "mail": "184",
+      "user_id": "h82BiTS2O7Nl-MY85JEOciOzKcw",
+      "vpos": "6764",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "音質も紙"
+    }
+  },
+  {
+    "chat": {
+      "date": "1261642693",
+      "no": "243",
+      "mail": "184",
+      "user_id": "A5AjBmxmqJe6mdl5GQC_8bEMt4I",
+      "vpos": "1305",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "うわ・・・ｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1263701584",
+      "no": "244",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "70D94L9sVNezQAZUF2sHWxgweJg",
+      "vpos": "2227",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ええええええ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1263908590",
+      "no": "245",
+      "mail": "184",
+      "user_id": "6LjlbzzcMDDngb7WkTcClIFAgCE",
+      "vpos": "1154",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "はええｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1269463685",
+      "no": "246",
+      "mail": "184",
+      "user_id": "p2jDvcTlBKRR5NrKvD4iWLX1qYs",
+      "vpos": "838",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ひでえええええええええええええええ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1269463690",
+      "no": "247",
+      "mail": "184",
+      "user_id": "p2jDvcTlBKRR5NrKvD4iWLX1qYs",
+      "vpos": "1422",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "最低画質"
+    }
+  },
+  {
+    "chat": {
+      "date": "1269586676",
+      "no": "248",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "XYmQz4EMI346eK4xVwuQkN_GU8M",
+      "vpos": "584",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "!?"
+    }
+  },
+  {
+    "chat": {
+      "date": "1269586679",
+      "no": "249",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "XYmQz4EMI346eK4xVwuQkN_GU8M",
+      "vpos": "891",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ひでえｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1269594168",
+      "no": "250",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "Cv23TanIhjoEhJMz10ahcjtD6oI",
+      "vpos": "2141",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "これは神が質"
+    }
+  },
+  {
+    "chat": {
+      "date": "1269604058",
+      "no": "251",
+      "mail": "184",
+      "user_id": "rBPdqcBiOy5JHwSUSDV4df87Dq0",
+      "vpos": "3338",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "謎のエロさｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1269604583",
+      "no": "252",
+      "mail": "184",
+      "user_id": "m9JKxbbqFjmsDfuHEPVK-JKG8gk",
+      "vpos": "1566",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "なんだって！？"
+    }
+  },
+  {
+    "chat": {
+      "date": "1269609657",
+      "no": "253",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "c2vonfmqHvFhKCV_MYiZ8staY30",
+      "vpos": "1312",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "流石の超画質ｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1269609707",
+      "no": "254",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "c2vonfmqHvFhKCV_MYiZ8staY30",
+      "vpos": "6323",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "PCスペック云々の問題じゃねぇぞコレｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1269610596",
+      "no": "255",
+      "mail": "184",
+      "user_id": "_yMuFgXbmiX3j7apDvre0x07c6o",
+      "vpos": "5646",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "音どうにかしてくれｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1269707249",
+      "no": "256",
+      "deleted": "2",
+      "vpos": "2250",
+      "anonymity": "1",
+      "thread": "1227651486"
+    }
+  },
+  {
+    "chat": {
+      "date": "1269734404",
+      "no": "257",
+      "mail": "184",
+      "user_id": "bJXy9abZWSSxoPK0CeWOEsQeDyk",
+      "vpos": "1271",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ekonomiwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1269762438",
+      "no": "258",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "jp9UXtINnNBqGDh0rZnIv1-qhEA",
+      "vpos": "1907",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "なんだこれｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1269852330",
+      "no": "259",
+      "mail": "184",
+      "user_id": "BG0KX_lW2dCUi1GF16weK-852Rc",
+      "vpos": "409",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "wwwwwwwwwwwwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1269922305",
+      "no": "260",
+      "mail": "184",
+      "user_id": "Wy4vhCJcfHrL6pQeumvxEQ2biNk",
+      "vpos": "1066",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "wwwwwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1269922308",
+      "no": "261",
+      "mail": "184",
+      "user_id": "Wy4vhCJcfHrL6pQeumvxEQ2biNk",
+      "vpos": "1440",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ひでえ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1270018971",
+      "no": "262",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "fBEnNXd8BsAXf1_c0Bft1ZcH4f0",
+      "vpos": "3268",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "神すぎてよく見えない"
+    }
+  },
+  {
+    "chat": {
+      "date": "1270740456",
+      "no": "263",
+      "mail": "184",
+      "user_id": "kdUeM9nD-NXpQ2iXJe3MS_vbs1I",
+      "vpos": "1066",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "wwwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1271175323",
+      "no": "264",
+      "mail": "184",
+      "user_id": "OnfRsFtBg2Zp4J9MpAIcwoxCmHI",
+      "vpos": "4006",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "すげえええええｗｗｗマイリスに入れてるやつらは難なんだｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1271175352",
+      "no": "265",
+      "mail": "184",
+      "user_id": "OnfRsFtBg2Zp4J9MpAIcwoxCmHI",
+      "vpos": "6894",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "何がなんだかｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1271175369",
+      "no": "266",
+      "mail": "184",
+      "user_id": "OnfRsFtBg2Zp4J9MpAIcwoxCmHI",
+      "vpos": "8590",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "キワミシリーズ思い出した"
+    }
+  },
+  {
+    "chat": {
+      "date": "1271313999",
+      "no": "267",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "mleydL6hL1mCSUSbZBBXzH1jcmQ",
+      "vpos": "1233",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "超画質だｗｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1271314017",
+      "no": "268",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "mleydL6hL1mCSUSbZBBXzH1jcmQ",
+      "vpos": "1760",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "超画質超音質ｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1272119026",
+      "no": "269",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "X9TFoSPGn7-TJ9zopzC7QObC8Us",
+      "vpos": "5909",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "歌詞おつｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1274618358",
+      "no": "270",
+      "mail": "184",
+      "user_id": "B6qVWRTli9VSBFz4yY78PpYcV8E",
+      "vpos": "1881",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1274618382",
+      "no": "271",
+      "mail": "184",
+      "user_id": "B6qVWRTli9VSBFz4yY78PpYcV8E",
+      "vpos": "4352",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ずれすぎｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1274703015",
+      "no": "272",
+      "mail": "184",
+      "user_id": "YRtOo_lgacELOfgI1LfN1tcKrlg",
+      "vpos": "379",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": " 神速バッファ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1274956317",
+      "no": "273",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "f69PMmUJ3Vv5S2HAf5pybGrBzgU",
+      "vpos": "1883",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "神画質ｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1275234163",
+      "no": "274",
+      "mail": "184",
+      "user_id": "H6_AI0uzJUZ_H4QSpbF50YCMfI0",
+      "vpos": "2220",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "音質くらい残しておけｪ･･･"
+    }
+  },
+  {
+    "chat": {
+      "date": "1275839404",
+      "no": "275",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "lQCPjCXfzHn9n4TlvZ3RJnmBpVQ",
+      "vpos": "2141",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "神速だなｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1275915697",
+      "no": "276",
+      "mail": "184",
+      "user_id": "GfqkTPUWJ4aGBXphIs1ITVIUhmM",
+      "vpos": "8603",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "これは流石に"
+    }
+  },
+  {
+    "chat": {
+      "date": "1275916017",
+      "no": "277",
+      "mail": "184",
+      "user_id": "aud814KaUENceckZMRlweIIMmKY",
+      "vpos": "753",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1276856500",
+      "no": "278",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "NjeJ_hVWczWC8x0gOQijN0ll7OU",
+      "vpos": "1476",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ひでえええｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1276856521",
+      "no": "279",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "NjeJ_hVWczWC8x0gOQijN0ll7OU",
+      "vpos": "3537",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "これはわろたｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1276856540",
+      "no": "280",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "NjeJ_hVWczWC8x0gOQijN0ll7OU",
+      "vpos": "5474",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "神画質ですねわかります"
+    }
+  },
+  {
+    "chat": {
+      "date": "1277010868",
+      "no": "281",
+      "mail": "184",
+      "user_id": "7huJErr7ITF5PZQ_ipIvWN4RfFk",
+      "vpos": "2299",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "涙で前がみえない・・・ｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1277016397",
+      "no": "282",
+      "mail": "184",
+      "user_id": "VR26BIVf-bIXMwuCx-v7qNtlE_E",
+      "vpos": "8046",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "１０年前はこんなもんだったｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1277019817",
+      "no": "283",
+      "mail": "184",
+      "user_id": "5_QUpwj7dGewze9hbZp_4AX-Qms",
+      "vpos": "620",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "うわｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1277024990",
+      "no": "284",
+      "mail": "184",
+      "user_id": "7KssiBLqCeT_QJoJ0MGdAODEvZY",
+      "vpos": "1188",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "なんというくそ画質ｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1277049405",
+      "no": "285",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "GNaxaDMdd17VxB_4gDphZseYAK0",
+      "vpos": "1393",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "携帯よりひどいｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1277052552",
+      "no": "286",
+      "mail": "184",
+      "user_id": "t8F3AGCaWU5qa_4kZ_JecCq1gG0",
+      "vpos": "392",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "wwwwwwwwwwwwwwwwwwwwwwwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1277108625",
+      "no": "287",
+      "mail": "184",
+      "user_id": "SlF0aCJMuDX5RCP5WKQTyTCvt20",
+      "vpos": "3746",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "こら凄いわｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1277108716",
+      "no": "288",
+      "mail": "184",
+      "user_id": "SlF0aCJMuDX5RCP5WKQTyTCvt20",
+      "vpos": "2780",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "おっと、水に落としちまった"
+    }
+  },
+  {
+    "chat": {
+      "date": "1278251841",
+      "no": "289",
+      "mail": "184",
+      "user_id": "gw46xROanK2UwLl9sNa1F41G9eg",
+      "vpos": "3069",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "そっちの超画質かｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1278400116",
+      "no": "290",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "CdGyfOI9ZNBFaqzZ1Z72KFE-dlk",
+      "vpos": "2666",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "なるほど超画質wwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1279285230",
+      "no": "291",
+      "mail": "184",
+      "user_id": "KzsSg_eVnGaINabCGXI7lx3CmqA",
+      "vpos": "1230",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "読み込みはえええええｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1280392058",
+      "no": "292",
+      "mail": "184",
+      "user_id": "BbI4Q8ED3DhX64T7xANZxYhsRnA",
+      "vpos": "1038",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "すげえｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1280392116",
+      "no": "293",
+      "mail": "184",
+      "user_id": "BbI4Q8ED3DhX64T7xANZxYhsRnA",
+      "vpos": "6858",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "おとひでえ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1282398701",
+      "no": "294",
+      "mail": "184",
+      "user_id": "ZDD4no6bX307irjX98DJINaUOn4",
+      "vpos": "2871",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "なんというｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1282663992",
+      "no": "295",
+      "mail": "184",
+      "user_id": "Hynw2yBnaqX-j_iFxNlttN4AUUk",
+      "vpos": "1080",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "これは…紙画質だな…"
+    }
+  },
+  {
+    "chat": {
+      "date": "1285128483",
+      "no": "296",
+      "mail": "184",
+      "user_id": "M-a-59KaOss61MGCRlh7eUA3Gi0",
+      "vpos": "1493",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "超画質ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1285253779",
+      "no": "297",
+      "mail": "184",
+      "user_id": "D9k4UFOKMzsLTwjyg_zGcOUW6j8",
+      "vpos": "2715",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "俺のスピーカーが泣いてる"
+    }
+  },
+  {
+    "chat": {
+      "date": "1285257665",
+      "no": "298",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "LHx-AckCXyTSLGzPqaQRmDMhuUU",
+      "vpos": "4204",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1285473068",
+      "no": "299",
+      "mail": "184",
+      "user_id": "6Rdtl0ZAlLhaHoY44uNhqC_-tSA",
+      "vpos": "3765",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "モザイクレベルｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1285473106",
+      "no": "300",
+      "mail": "184",
+      "user_id": "6Rdtl0ZAlLhaHoY44uNhqC_-tSA",
+      "vpos": "7609",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "真空管ラジオ・・・"
+    }
+  },
+  {
+    "chat": {
+      "date": "1285477534",
+      "no": "301",
+      "mail": "184",
+      "user_id": "NQBsmIXXq5BKlta6ETRIMTLAljo",
+      "vpos": "780",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ワロタｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1285477548",
+      "no": "302",
+      "mail": "184",
+      "user_id": "NQBsmIXXq5BKlta6ETRIMTLAljo",
+      "vpos": "2146",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "そういう意味かｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1285477580",
+      "no": "303",
+      "mail": "184",
+      "user_id": "NQBsmIXXq5BKlta6ETRIMTLAljo",
+      "vpos": "5400",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ずれてるえええ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1286093867",
+      "no": "304",
+      "mail": "184",
+      "user_id": "hiSiIs3YluEoCH6hwOWl2GlMmHM",
+      "vpos": "1213",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "まじぱねえ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1286159408",
+      "no": "305",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "Y1xDKjspy7cQmkVVkxMPO8HHzAQ",
+      "vpos": "126",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "神画質ｋｔｋｒ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1286193002",
+      "no": "306",
+      "mail": "184",
+      "user_id": "LYkk5hf-WwZFoODL9GpVU7qAxfs",
+      "vpos": "3063",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "くそわろたｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1286204455",
+      "no": "307",
+      "mail": "184",
+      "user_id": "8CbaUAjDobVILv3C-j2Q8bZBOI8",
+      "vpos": "960",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "画質ｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1287482236",
+      "no": "308",
+      "mail": "184",
+      "user_id": "CK_4-L2G782fYopIIYOMygHPCmg",
+      "vpos": "2526",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "画質ｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1288153246",
+      "no": "309",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "3UGEWm4IzqhA1PLdOQVOx4g0U5s",
+      "vpos": "240",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "馬鹿にしすぎだろｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1288153306",
+      "no": "310",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "3UGEWm4IzqhA1PLdOQVOx4g0U5s",
+      "vpos": "4866",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "処理落ちしとるがｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1291653574",
+      "no": "311",
+      "mail": "184",
+      "user_id": "1cxQVDrEMe9nV4kogFzMS3seGGU",
+      "vpos": "5644",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "神画質ｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1291712502",
+      "no": "312",
+      "mail": "184",
+      "user_id": "8Q1pnL4fZzM8NDxopCoZwv-Q35k",
+      "vpos": "1586",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1291712515",
+      "no": "313",
+      "mail": "184",
+      "user_id": "8Q1pnL4fZzM8NDxopCoZwv-Q35k",
+      "vpos": "3013",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "詐欺ｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1291874314",
+      "no": "314",
+      "mail": "184",
+      "user_id": "BI-gkGZRfE_4lv4EAQOGJfK83zk",
+      "vpos": "3545",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "超画質ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1292304422",
+      "no": "315",
+      "mail": "184",
+      "user_id": "1dZuchzvQqMVg_cLddlc1Js5S6Y",
+      "vpos": "2340",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "こらああああああああああああああああああああああああああああああ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1294663977",
+      "no": "316",
+      "mail": "184",
+      "user_id": "2i4FMreptnQ0glUnfud57BPmMzc",
+      "vpos": "4332",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ひでえええええええ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1297983862",
+      "no": "317",
+      "mail": "184",
+      "user_id": "CCv6ibZbldMEfXCSw1n06eOoxMU",
+      "vpos": "648",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1297983867",
+      "no": "318",
+      "mail": "184",
+      "user_id": "CCv6ibZbldMEfXCSw1n06eOoxMU",
+      "vpos": "1196",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "これはひでえｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1297983878",
+      "no": "319",
+      "mail": "184",
+      "user_id": "CCv6ibZbldMEfXCSw1n06eOoxMU",
+      "vpos": "2278",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "超画質わろたｑｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1298096580",
+      "no": "320",
+      "deleted": "2",
+      "vpos": "1192",
+      "anonymity": "1",
+      "thread": "1227651486"
+    }
+  },
+  {
+    "chat": {
+      "date": "1298855917",
+      "no": "321",
+      "mail": "184",
+      "user_id": "tM2FKImGffrQkia4ejOYOZt0Tgw",
+      "vpos": "1764",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "画質パネエw"
+    }
+  },
+  {
+    "chat": {
+      "date": "1299906606",
+      "no": "322",
+      "mail": "184",
+      "user_id": "7Uw4dJ1FNKcrLc3Me5tdrpE2fP4",
+      "vpos": "8286",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "高画質とは言ってないからな・・・。"
+    }
+  },
+  {
+    "chat": {
+      "date": "1300259139",
+      "no": "323",
+      "mail": "184",
+      "user_id": "Z99co_KWeXFFJdKC3bP91ibbNos",
+      "vpos": "3232",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "糸が見えない"
+    }
+  },
+  {
+    "chat": {
+      "date": "1300277951",
+      "no": "324",
+      "mail": "184 big",
+      "user_id": "O29EtFyx_HLlICy3vC14m6cF5q0",
+      "vpos": "4893",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "メガネ取るとキレイ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1300547146",
+      "no": "325",
+      "mail": "184",
+      "user_id": "Q_H-TvRxmizH8M-K09frkUgsUZo",
+      "vpos": "2813",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "確かに超画質だけどｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1300904667",
+      "no": "326",
+      "mail": "184",
+      "user_id": "7aolT2DX77pA2XEnlO7YNYV_oAg",
+      "vpos": "3421",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "むしろオシャレじゃね？"
+    }
+  },
+  {
+    "chat": {
+      "date": "1300904695",
+      "no": "327",
+      "mail": "184",
+      "user_id": "7aolT2DX77pA2XEnlO7YNYV_oAg",
+      "vpos": "4829",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "１０ｍ離れてみるといける"
+    }
+  },
+  {
+    "chat": {
+      "date": "1301113881",
+      "no": "328",
+      "mail": "184",
+      "user_id": "BIqno6ncvvOcXLTdx5qFGX9wMt8",
+      "vpos": "3074",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "これはｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1301509679",
+      "no": "329",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "BXprAitqoRvZ6mKppzl5HgnGkiY",
+      "vpos": "9201",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "ダーク♂尺余り"
+    }
+  },
+  {
+    "chat": {
+      "date": "1301544244",
+      "no": "330",
+      "mail": "184",
+      "user_id": "z79quenyYo9cF0lFKLEbl4r9dfM",
+      "vpos": "3366",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "www"
+    }
+  },
+  {
+    "chat": {
+      "date": "1302871860",
+      "no": "331",
+      "mail": "184",
+      "user_id": "IgI5qdabuslrxYcZ4MDdIq1s0_w",
+      "vpos": "466",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "!?"
+    }
+  },
+  {
+    "chat": {
+      "date": "1303041967",
+      "no": "332",
+      "mail": "184",
+      "user_id": "2Iz8Fh34om3wQxJ4iCmr9FmKAfA",
+      "vpos": "4953",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "何故上げる気になった！"
+    }
+  },
+  {
+    "chat": {
+      "date": "1303492597",
+      "no": "333",
+      "mail": "184",
+      "user_id": "_95LZ4ALZOzK_6Xe8SXanZO2ZZs",
+      "vpos": "1486",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1303901099",
+      "no": "334",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "OFYZ1bzQx5rdME_v4Ouk2pECpaM",
+      "vpos": "1213",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "温室以外は完璧だな"
+    }
+  },
+  {
+    "chat": {
+      "date": "1305384318",
+      "no": "335",
+      "score": "-150",
+      "mail": "184",
+      "user_id": "ZpEenZtCOcgtZn-HTQXdPnoexgI",
+      "vpos": "2937",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "バカにしてんのかｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1307288393",
+      "no": "336",
+      "score": "-260",
+      "mail": "184",
+      "user_id": "2Ej3rdAIeZKddrlX7PY_57X8sAU",
+      "vpos": "3417",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "すげえw"
+    }
+  },
+  {
+    "chat": {
+      "date": "1307288409",
+      "no": "337",
+      "score": "-260",
+      "mail": "184",
+      "user_id": "2Ej3rdAIeZKddrlX7PY_57X8sAU",
+      "vpos": "3417",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "著作権まで考慮してるとはw"
+    }
+  },
+  {
+    "chat": {
+      "date": "1307612696",
+      "no": "338",
+      "mail": "184",
+      "user_id": "6VMdhVl-Vl90rXvffVrEp9hwXAw",
+      "vpos": "5213",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "あれ・・・画面が滲んで見える・・・！？"
+    }
+  },
+  {
+    "chat": {
+      "date": "1308146408",
+      "no": "339",
+      "mail": "184",
+      "user_id": "3A4t9nVm43QcMkYivlvbH0Vczoc",
+      "vpos": "6760",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "誰か分からんくなってるｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1308223154",
+      "no": "340",
+      "score": "-220",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "zyTfSv_EzWcZ14fAduTSO166GrQ",
+      "vpos": "1034",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "wwwwwwwwwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1308837186",
+      "no": "341",
+      "score": "-100",
+      "mail": "184",
+      "user_id": "oSp6ErsSNOqiP-Vk0OQRtADFO3k",
+      "vpos": "8786",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "ここまでひどいと逆に笑える"
+    }
+  },
+  {
+    "chat": {
+      "date": "1309625763",
+      "no": "342",
+      "mail": "184",
+      "user_id": "wP3SGqWmzxGfKI5ixpp7lVsPyDM",
+      "vpos": "1820",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "今日１番笑ったｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1309687593",
+      "no": "343",
+      "score": "-370",
+      "mail": "184",
+      "user_id": "vCzKIEmO73rOHwJFA5Y_j2BhXb8",
+      "vpos": "933",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "！？"
+    }
+  },
+  {
+    "chat": {
+      "date": "1309693678",
+      "no": "344",
+      "score": "-1670",
+      "mail": "184",
+      "user_id": "tlZ0Frd8T-ysvSM15DH4f1XTMR8",
+      "vpos": "1493",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ひっでｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1309758968",
+      "no": "345",
+      "score": "-340",
+      "mail": "184",
+      "user_id": "eVc_TsX4JW98Wdi441IWFgXV9rA",
+      "vpos": "3133",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "画質下げるとモザイクアートになるのかｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1310552598",
+      "no": "346",
+      "score": "-2000",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "dwPJPFP8Kwgu8mBL6uIsYnr-b8w",
+      "vpos": "1173",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "神きたあああああああああああああああああああああああああああああああああ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1313976796",
+      "no": "347",
+      "score": "-95",
+      "mail": "184",
+      "user_id": "Smm4Ct1Olu1yfo5RK7cTA5V35NY",
+      "vpos": "900",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1315550555",
+      "no": "348",
+      "mail": "184",
+      "user_id": "0n8X16ByTObb2694fKl4MPnDppk",
+      "vpos": "1593",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "超画質すぎるｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1315840385",
+      "no": "349",
+      "score": "-2165",
+      "mail": "184",
+      "user_id": "ACLWNbbWqwZSc-yfVPJNpXoztPI",
+      "vpos": "1606",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "神画質ｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1316131916",
+      "no": "350",
+      "score": "-1470",
+      "mail": "184",
+      "user_id": "lSn3t1bNF-o5pzM5Fac74NcRIrE",
+      "vpos": "4800",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "驚異的なマイリス率ｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1316613171",
+      "no": "351",
+      "score": "-120",
+      "mail": "184",
+      "user_id": "JkZAvkILiGCUJaZ-p_8HUwk3yZk",
+      "vpos": "3063",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1316613182",
+      "no": "352",
+      "score": "-120",
+      "mail": "184",
+      "user_id": "JkZAvkILiGCUJaZ-p_8HUwk3yZk",
+      "vpos": "4243",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "超画質ｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1318124161",
+      "no": "353",
+      "mail": "184",
+      "user_id": "HNqEmUG97tM-lqUnf0dDoE_v1QQ",
+      "vpos": "3221",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "シャフトに謝れｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1319510284",
+      "no": "354",
+      "mail": "184",
+      "user_id": "OEw187pv_xI_tk6IUPnp0OVkcSI",
+      "vpos": "1260",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ダイヤルアップ専用ｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1319969832",
+      "no": "355",
+      "mail": "184",
+      "user_id": "sQd0Ca82rhJqOM4i2ATuT1MupPo",
+      "vpos": "3016",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ひでｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1320036562",
+      "no": "356",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "x5-1vYwlP1UdXZUvTUKcCb6-XT0",
+      "vpos": "3900",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "超画質把握"
+    }
+  },
+  {
+    "chat": {
+      "date": "1320055191",
+      "no": "357",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "rdKdXpJhs0_REBijoJILGp5oXgw",
+      "vpos": "561",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "！？"
+    }
+  },
+  {
+    "chat": {
+      "date": "1320407345",
+      "no": "358",
+      "mail": "184",
+      "user_id": "LMWLDVwwrbZKGXZe3J_2DHBFxOc",
+      "vpos": "3640",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "確かに超画質ｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1320407377",
+      "no": "359",
+      "mail": "184",
+      "user_id": "LMWLDVwwrbZKGXZe3J_2DHBFxOc",
+      "vpos": "6830",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "マイリスはなんなんだよｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1320542683",
+      "no": "360",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "xzCAP_0S6Xjd_1ze58Qrs0dbz8w",
+      "vpos": "1573",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "この動画の要領教えろｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1324456754",
+      "no": "361",
+      "mail": "184",
+      "user_id": "9VkAaSGuA6LZET9JZghGeUi8Uyk",
+      "vpos": "4040",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "これはｗｗ超画質すぎるｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1326036209",
+      "no": "362",
+      "mail": "184",
+      "user_id": "Ku16wx79rjWjoJqZDCkrZt5J_Us",
+      "vpos": "4793",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ラジオｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1326520297",
+      "no": "363",
+      "mail": "184",
+      "user_id": "1IjLeS55eXzAk1DklGW1kEunwUA",
+      "vpos": "1271",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "エコノミーでこの画質かと思ったww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1327511998",
+      "no": "364",
+      "mail": "184",
+      "user_id": "KIi71HJk3tlQs39FkJ-VS7s1PYA",
+      "vpos": "4072",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ひっでえｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1333362844",
+      "no": "365",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "RYTkln7uCa7rf1Mm9x5aEiObDsk",
+      "vpos": "7725",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "マイリス入れた奴誰だよwwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1333386119",
+      "no": "366",
+      "mail": "184",
+      "user_id": "g8z0ko3wsWAZHNMXBsmtJn6Xxyk",
+      "vpos": "5143",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "あれ？俺泣いてんのかな？画面がゆがんでる"
+    }
+  },
+  {
+    "chat": {
+      "date": "1334341656",
+      "no": "367",
+      "score": "-120",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "OhrZ0xbv-gwmA0mhlWRYMPwxCBk",
+      "vpos": "3748",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "誰が『高』画質と言った？"
+    }
+  },
+  {
+    "chat": {
+      "date": "1338383816",
+      "no": "368",
+      "mail": "184",
+      "user_id": "B8JlAvJATboFnw19wCoE4KCcRNo",
+      "vpos": "4440",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ある意味神ｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1338383838",
+      "no": "369",
+      "mail": "184",
+      "user_id": "B8JlAvJATboFnw19wCoE4KCcRNo",
+      "vpos": "6640",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "酔うんだがｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1339150045",
+      "no": "370",
+      "score": "-11",
+      "mail": "184",
+      "user_id": "4S7ZH1aGw0IyBzmeo3FD7EdP_6s",
+      "vpos": "768",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "gasituｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1339500462",
+      "no": "371",
+      "mail": "184",
+      "user_id": "pgJGcQcAbNxUEtvD_d7fCC09KAo",
+      "vpos": "3866",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "これはいい釣り"
+    }
+  },
+  {
+    "chat": {
+      "date": "1341196432",
+      "no": "372",
+      "mail": "184",
+      "user_id": "fPqxF5hJDdsqERrzickNTyXxmMw",
+      "vpos": "552",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "wwwwwwwwwwwwwwwwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1341196466",
+      "no": "373",
+      "mail": "184",
+      "user_id": "fPqxF5hJDdsqERrzickNTyXxmMw",
+      "vpos": "3978",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "クッソ汚ねぇwwwwwwwwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1344493701",
+      "no": "374",
+      "mail": "184",
+      "user_id": "XEYI8iwXAQiDYeK5MKW2R-dNiYE",
+      "vpos": "5589",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "著作権考慮ﾜﾛﾀ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1346518536",
+      "no": "375",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "e09LunjhTixHc21r4VlRpY_O3xU",
+      "vpos": "4160",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "謎のw"
+    }
+  },
+  {
+    "chat": {
+      "date": "1347718802",
+      "no": "376",
+      "mail": "184",
+      "user_id": "oGgV4p29ydOT8Ek3HGkyYiYeySc",
+      "vpos": "73",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "目悪い奴、離れて見ると……？"
+    }
+  },
+  {
+    "chat": {
+      "date": "1349969842",
+      "no": "377",
+      "mail": "184",
+      "user_id": "YqpmlDbuAAHZ83rOe3CgrDaosEo",
+      "vpos": "846",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1353084824",
+      "no": "378",
+      "score": "-120",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "MW4NdkJpjcW1ib2eT2syuARjUtg",
+      "vpos": "4758",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "おい･･･なんかいやらしいぞ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1357609228",
+      "no": "379",
+      "mail": "184",
+      "user_id": "fPVsHSNUKxQyJoXSQRO45vYo94w",
+      "vpos": "1155",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "みえねええええｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1357609247",
+      "no": "380",
+      "mail": "184",
+      "user_id": "fPVsHSNUKxQyJoXSQRO45vYo94w",
+      "vpos": "3086",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "オｗｗトｗｗズｗｗレ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1358740040",
+      "no": "381",
+      "mail": "184",
+      "user_id": "-UgOBGYB7foeui7Q3fVF5Br6sHc",
+      "vpos": "1106",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "wwwwwwwwwwwwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1358740046",
+      "no": "382",
+      "mail": "184",
+      "user_id": "-UgOBGYB7foeui7Q3fVF5Br6sHc",
+      "vpos": "1693",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "みえねぇｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1360459675",
+      "no": "383",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "sRJxFo_Y3qS2zJPZvVEUG_pXp64",
+      "vpos": "771",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "わろた"
+    }
+  },
+  {
+    "chat": {
+      "date": "1360459699",
+      "no": "384",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "sRJxFo_Y3qS2zJPZvVEUG_pXp64",
+      "vpos": "3321",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "何も見えねぇｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1360459710",
+      "no": "385",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "sRJxFo_Y3qS2zJPZvVEUG_pXp64",
+      "vpos": "4312",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "英語どこｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1365075141",
+      "no": "386",
+      "mail": "184",
+      "user_id": "dH7bAJuC3kxppwtdfJ0R7PNicUY",
+      "vpos": "3897",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "モザイクｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1365075169",
+      "no": "387",
+      "mail": "184",
+      "user_id": "dH7bAJuC3kxppwtdfJ0R7PNicUY",
+      "vpos": "6656",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "歌詞ｗｗｗありがとうｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1365152180",
+      "no": "388",
+      "mail": "184",
+      "user_id": "6ZGxsephkGj1TA4loYcsLN1vAIY",
+      "vpos": "3890",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "超画質ｗｗｗｗ神画質ｗｗｗｗ理解ｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1365171446",
+      "no": "389",
+      "mail": "184",
+      "user_id": "7nXTdobSY0jZiWht9UDytxmoUp8",
+      "vpos": "2782",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "超画質すぎるｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1365260848",
+      "no": "390",
+      "mail": "184",
+      "user_id": "ok15XHA1Dp17T62wXd2689eKMpQ",
+      "vpos": "4150",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "っはwwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1367672559",
+      "no": "391",
+      "mail": "184",
+      "user_id": "r8NtzaybExAlZZu7IwuIKpR6U24",
+      "vpos": "1469",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "何事だｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1368974457",
+      "no": "392",
+      "mail": "184",
+      "user_id": "2oUeRGqyTiYcf30KLoLgxKdbJxU",
+      "vpos": "478",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "wwwwwwwwwwwwwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1369927603",
+      "no": "393",
+      "mail": "184",
+      "user_id": "QnOjC8oqhY-Pr3wBzQYh1ZdNA_s",
+      "vpos": "4223",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ブロックノイズアート"
+    }
+  },
+  {
+    "chat": {
+      "date": "1370787226",
+      "no": "394",
+      "mail": "184",
+      "user_id": "sCx_NZFaR7Hmimc6xd79rAcQ0xE",
+      "vpos": "2160",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "wwwwwwwwwwwwwwwwwwwwwwwwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1370787243",
+      "no": "395",
+      "mail": "184",
+      "user_id": "sCx_NZFaR7Hmimc6xd79rAcQ0xE",
+      "vpos": "3895",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ここまで酷いの初めて見たｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1376453867",
+      "no": "396",
+      "mail": "184",
+      "user_id": "UbOace6dIrDvDdqYvAZrqRadwjw",
+      "vpos": "933",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "騙されたｗｗｗｗｗコンタクトとってくる"
+    }
+  },
+  {
+    "chat": {
+      "date": "1378387835",
+      "no": "397",
+      "mail": "184",
+      "user_id": "sN8B3GicTit4eKJDTLF5a-7Chas",
+      "vpos": "2472",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "超(低)画質"
+    }
+  },
+  {
+    "chat": {
+      "date": "1382627885",
+      "no": "398",
+      "score": "-120",
+      "mail": "184",
+      "user_id": "qtGgKQRSG3PkVLA-Iy_QXlMphu0",
+      "vpos": "3883",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "まって画質どうすたｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1382627891",
+      "no": "399",
+      "score": "-120",
+      "mail": "184",
+      "user_id": "qtGgKQRSG3PkVLA-Iy_QXlMphu0",
+      "vpos": "4563",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "こっちひっでぇｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1383058958",
+      "no": "400",
+      "premium": "1",
+      "mail": "184 shita yellow",
+      "user_id": "65_JTaRrPq6A-bcCxKZyWBr3xAs",
+      "vpos": "143",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "※メガネを外すと綺麗です"
+    }
+  },
+  {
+    "chat": {
+      "date": "1397562062",
+      "no": "401",
+      "mail": "184",
+      "user_id": "87OyvmnQXOP_EiuhvWbeN8wq_Sg",
+      "vpos": "3522",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "涙で画面が滲んでみえるよ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1397562121",
+      "no": "402",
+      "mail": "184",
+      "user_id": "87OyvmnQXOP_EiuhvWbeN8wq_Sg",
+      "vpos": "613",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "VHSで１０回位ダビング繰り返したような"
+    }
+  },
+  {
+    "chat": {
+      "date": "1401454999",
+      "no": "403",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "C6oUV9s4zUkpkHzlzV6MBZYkidQ",
+      "vpos": "3726",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "変態画質"
+    }
+  },
+  {
+    "chat": {
+      "date": "1406595939",
+      "no": "404",
+      "mail": "184 shita big",
+      "user_id": "In2YvLf-PQ7JcfgVv6-JK6iLpws",
+      "vpos": "5367",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "トレス動画にすごくいいよこれ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1407332594",
+      "no": "405",
+      "mail": "184",
+      "user_id": "E3VT6pBd6NSENS6ZaHWL2N-cezs",
+      "vpos": "3609",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ここまで酷いと逆にすげえｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1411705587",
+      "no": "406",
+      "mail": "184",
+      "user_id": "_epy2QZ80U2dhPanC6eCMYVC1-Q",
+      "vpos": "1848",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "読み込み3秒w"
+    }
+  },
+  {
+    "chat": {
+      "date": "1412467748",
+      "no": "407",
+      "mail": "184",
+      "user_id": "giLiyHg_9bxQ7DzSDJm9aPsowoA",
+      "vpos": "1623",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ファミコン画質！"
+    }
+  },
+  {
+    "chat": {
+      "date": "1421857691",
+      "no": "408",
+      "mail": "184 device:3DS",
+      "user_id": "vJEqANz_AOUFHaQ2RqhHPVXYvbc",
+      "vpos": "2825",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "モザイクでワロタ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1422098160",
+      "no": "409",
+      "mail": "184 device:3DS",
+      "user_id": "B24Ywp3M1mcur88J1z7G8Ggs49g",
+      "vpos": "7813",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "神画質過ぎて見れない"
+    }
+  },
+  {
+    "chat": {
+      "date": "1422515345",
+      "no": "410",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "qjHYSswEHhauvuwBWmPkVoVK7qY",
+      "vpos": "689",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ひどすぎるｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1422515383",
+      "no": "411",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "qjHYSswEHhauvuwBWmPkVoVK7qY",
+      "vpos": "771",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "超（低）画質"
+    }
+  },
+  {
+    "chat": {
+      "date": "1422515439",
+      "no": "412",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "qjHYSswEHhauvuwBWmPkVoVK7qY",
+      "vpos": "4429",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ノイズなんとかしろｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1422515496",
+      "no": "413",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "qjHYSswEHhauvuwBWmPkVoVK7qY",
+      "vpos": "5797",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "よく見るとズレまくってんじゃねぇかｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1422515551",
+      "no": "414",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "qjHYSswEHhauvuwBWmPkVoVK7qY",
+      "vpos": "9360",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "そして尺余り"
+    }
+  },
+  {
+    "chat": {
+      "date": "1435005944",
+      "no": "415",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "JNWhJAVZd1NtuNKFRL-tQGAQhhA",
+      "vpos": "5835",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "視力悪いけどメガネ外しても画質良くならなかった動画はこれが初めてだｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1435735899",
+      "no": "416",
+      "mail": "184",
+      "user_id": "SFjHD5wcQZescIR8J_GzJ9ypGYQ",
+      "vpos": "4482",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "モザイクｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1449324777",
+      "no": "417",
+      "score": "-115",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "FYXLgM67XPMp8Iatbv39nTjUex8",
+      "vpos": "543",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1449324783",
+      "no": "418",
+      "score": "-115",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "FYXLgM67XPMp8Iatbv39nTjUex8",
+      "vpos": "1059",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "音質すらｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1449324803",
+      "no": "419",
+      "score": "-115",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "FYXLgM67XPMp8Iatbv39nTjUex8",
+      "vpos": "3175",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ノイズくっそｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1451060385",
+      "no": "420",
+      "mail": "184 device:WiiU",
+      "user_id": "iNIZXAdtYPp2NgYywW1nubns6Rk",
+      "vpos": "1271",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "超(良い意味でとは言っていない)"
+    }
+  },
+  {
+    "chat": {
+      "date": "1464643005",
+      "no": "421",
+      "mail": "184 device:3DS",
+      "user_id": "l3NYrDbgVtOSB83kl-NjAtQd5hk",
+      "vpos": "4107",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "お前らの初見を再現してんだろ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1471372227",
+      "no": "422",
+      "mail": "184",
+      "user_id": "-WlaajrVK5y3WAPbLhYf8fhmTOU",
+      "vpos": "72",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "メガネ外したらマジで画質上がったわｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1471372241",
+      "no": "423",
+      "mail": "184",
+      "user_id": "-WlaajrVK5y3WAPbLhYf8fhmTOU",
+      "vpos": "1346",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "バッファ早すぎｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1471372253",
+      "no": "424",
+      "mail": "184",
+      "user_id": "-WlaajrVK5y3WAPbLhYf8fhmTOU",
+      "vpos": "2570",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "文字なんてなかった"
+    }
+  },
+  {
+    "chat": {
+      "date": "1471372273",
+      "no": "425",
+      "mail": "184",
+      "user_id": "-WlaajrVK5y3WAPbLhYf8fhmTOU",
+      "vpos": "4496",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "文字よめねぇｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1471372287",
+      "no": "426",
+      "mail": "184",
+      "user_id": "-WlaajrVK5y3WAPbLhYf8fhmTOU",
+      "vpos": "5940",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "音ズレひどすぎｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1471372304",
+      "no": "427",
+      "mail": "184",
+      "user_id": "-WlaajrVK5y3WAPbLhYf8fhmTOU",
+      "vpos": "7630",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "もう色々と適当すぎｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1471372318",
+      "no": "428",
+      "mail": "184",
+      "user_id": "-WlaajrVK5y3WAPbLhYf8fhmTOU",
+      "vpos": "8989",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "leaf": "1",
+      "content": "タイトル消えたｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1471372328",
+      "no": "429",
+      "deleted": "2",
+      "vpos": "0",
+      "anonymity": "1",
+      "thread": "1227651486"
+    }
+  },
+  {
+    "chat": {
+      "date": "1471372372",
+      "no": "430",
+      "mail": "184",
+      "user_id": "-WlaajrVK5y3WAPbLhYf8fhmTOU",
+      "vpos": "63",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "読み込み速すぎて見えねぇｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1471372410",
+      "no": "431",
+      "mail": "184",
+      "user_id": "-WlaajrVK5y3WAPbLhYf8fhmTOU",
+      "vpos": "2803",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ブロックノイズとかいうレベルじゃなかったｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1478070371",
+      "no": "432",
+      "mail": "184 device:3DS",
+      "user_id": "t9bNYWzy9uR3vanj69yKB35_yyA",
+      "date_usec": "954586",
+      "vpos": "962",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "wwwwwwwwwwwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1483488123",
+      "no": "433",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "-8cvgffVUlxluJDIhF0UkuWYgjA",
+      "date_usec": "265625",
+      "vpos": "712",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1483652341",
+      "no": "434",
+      "mail": "184 device:3DS",
+      "user_id": "hQXtsFa0NCANFtEQam8GCMhwWUo",
+      "date_usec": "368915",
+      "vpos": "5973",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ひどいwwwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1483782808",
+      "no": "435",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "scaSoTt6PRc0JuHdbw7uOPH2qOg",
+      "date_usec": "998527",
+      "vpos": "657",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "おい"
+    }
+  },
+  {
+    "chat": {
+      "date": "1484168058",
+      "no": "436",
+      "mail": "naka medium 184",
+      "user_id": "UcDrgr_auWt8OhJjLrW14xMPhR4",
+      "date_usec": "841190",
+      "vpos": "1448",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "せめて音質は普通以上にしろよwwwwwww"
+    }
+  },
+  {
+    "chat": {
+      "date": "1486390405",
+      "no": "437",
+      "premium": "1",
+      "mail": "184",
+      "user_id": "0cfwQAGOSdV6pRdc3tDwU89NfkA",
+      "date_usec": "754529",
+      "vpos": "1958",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+    }
+  },
+  {
+    "chat": {
+      "date": "1498312929",
+      "no": "438",
+      "mail": "184 device:3DS",
+      "user_id": "E0xaX6lMXz2j7WhVpd5xVYirAmA",
+      "date_usec": "325065",
+      "vpos": "2631",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "もうモザイクじゃねぇかw"
+    }
+  },
+  {
+    "chat": {
+      "date": "1514821323",
+      "no": "439",
+      "mail": "184",
+      "user_id": "y-AiZto4R6Fusbv5fra7XmlOtMI",
+      "date_usec": "785509",
+      "vpos": "3578",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "超画質だな。間違ってはないけどw"
+    }
+  },
+  {
+    "chat": {
+      "date": "1517318388",
+      "no": "440",
+      "mail": "naka medium 184",
+      "user_id": "f8w_OWeQOjETofnLdIcIl7hfm1A",
+      "date_usec": "21517",
+      "vpos": "947",
+      "anonymity": "1",
+      "thread": "1227651486",
+      "content": "音質もひっでえなw"
+    }
+  },
+  {
+    "ping": {
+      "content": "pf:2"
+    }
+  },
+  {
+    "ping": {
+      "content": "rf:0"
+    }
+  }
+]
