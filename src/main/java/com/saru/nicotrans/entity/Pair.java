@@ -27,4 +27,12 @@ public class Pair {
     public void setMsg(String msg) {
         this.msg = msg;
     }
+
+    @Override
+    public String toString() {
+        return "Pair{" +
+                "contents=" + contents +
+                ", msg='" + msg + '\'' +
+                '}';
+    }
 }

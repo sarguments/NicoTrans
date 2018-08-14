@@ -16,6 +16,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
+import javax.annotation.Resource;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -25,6 +26,12 @@ public class PobiController {
     private static final String COMMENT_SERVER_URL = "http://pobi.god/api.json";
 
     private static final Logger log = LoggerFactory.getLogger(PobiController.class);
+
+    @Resource(name = "manipulateService")
+    private ManipulateService manipulateService;
+
+    @Resource(name = "networkService")
+    private NetworkService networkService;
 
     @GetMapping("")
     public String welcome() {
@@ -37,8 +44,6 @@ public class PobiController {
     public ResponseEntity<String> postWelcome(
             @RequestHeader HttpHeaders httpHeaders,
             @RequestBody String json) {
-        ManipulateService manipulateService = new ManipulateService();
-        NetworkService networkService = new NetworkService();
 
         // 요청 헤더 출력
         Set<Map.Entry<String, List<String>>> headers = httpHeaders.entrySet();
@@ -62,7 +67,7 @@ public class PobiController {
         //-------------------------------------------------------------------------------
 
         // json to Items
-        List<Item> items = networkService.responseJsonToItems(responseEntity);
+        List<Item> items = manipulateService.responseJsonToItems(responseEntity.getBody());
 
         // 번역할 텍스트의 원본 Content 참조와 텍스트 pairs로 추출
         List<Pair> pairs = manipulateService.itemsToPairs(items);

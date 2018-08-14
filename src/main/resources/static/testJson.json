@@ -10,8 +10,8 @@
     }
   },
   {
-    "thread": { // 응답의 thread
-      "resultcode": 0, // 0이면 성공
+    "thread": {
+      "resultcode": 0,
       "thread": "1227651486",
       "fork": 1,
       "server_time": 1528790701,
@@ -31,10 +31,10 @@
       "thread": "1227651486",
       "fork": 1,
       "no": 1,
-      "vpos": 207, // 코멘트의 동영상 시간상 위치 1vpos = 10 밀리 초, 100vpos = 1 초 
-      "date": 1227809033, // 게시 시간의 UNIX 시간 
-      "mail": "green shita small", // 코멘트 속성
-      "content": "Love, I`ve got to feel it" // 코멘트 본문
+      "vpos": 207,
+      "date": 1227809033,
+      "mail": "green shita small",
+      "content": "Love, I`ve got to feel it"
     }
   },
   {
