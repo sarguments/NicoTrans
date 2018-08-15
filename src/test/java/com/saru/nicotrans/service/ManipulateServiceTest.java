@@ -57,8 +57,6 @@ public class ManipulateServiceTest {
 
     @Test
     public void jsonToItems() throws IOException {
-        log.debug("{}", json);
-
         List<Item> items = manipulateService.responseJsonToItems(json);
         log.debug("items : {}", items);
     }
@@ -85,6 +83,14 @@ public class ManipulateServiceTest {
         List<Item> items = manipulateService.responseJsonToItems(json);
         String transedJson = manipulateService.itemsToJson(items);
         log.debug("json : {}", transedJson);
+
+        String transedJsonContent = JsonPath.parse(transedJson)
+                .read("$..chat.content").toString();
+
+        String jsonContent = JsonPath.parse(json)
+                .read("$..chat.content").toString();
+
+        assertThat(transedJsonContent, is(jsonContent));
     }
 
     @Test
