@@ -16,7 +16,7 @@ public class LogUtil {
     public static void printTranslateText(List<Item> items) {
         for (Item item: items) {
             Optional.ofNullable(item.get(CHAT.getName()))
-                    .ifPresent(chat -> log.info((String) chat.get(CONTENT.getName())));
+                    .ifPresent(chat -> log.debug((String) chat.get(CONTENT.getName())));
         }
     }
 }

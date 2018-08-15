@@ -11,216 +11,216 @@
   },
   {
     "thread": {
+      "server_time": 1528790701,
+      "fork": 1,
+      "ticket": "1227809033",
       "resultcode": 0,
       "thread": "1227651486",
-      "fork": 1,
-      "server_time": 1528790701,
       "last_res": 18,
-      "ticket": "1227809033",
       "revision": 1
     }
   },
   {
     "global_num_res": {
-      "thread": "1227651486",
-      "num_res": 440
+      "num_res": 440,
+      "thread": "1227651486"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 1,
-      "vpos": 207,
       "date": 1227809033,
+      "no": 1,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 207,
+      "thread": "1227651486",
       "content": "Love, I`ve got to feel it"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 2,
-      "vpos": 531,
       "date": 1227809033,
+      "no": 2,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 531,
+      "thread": "1227651486",
       "content": "If you put your trust in me"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 3,
-      "vpos": 838,
       "date": 1227809033,
+      "no": 3,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 838,
+      "thread": "1227651486",
       "content": "I know what my life would be"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 4,
-      "vpos": 1178,
       "date": 1227809033,
+      "no": 4,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 1178,
+      "thread": "1227651486",
       "content": "Oh, you are all I ever need"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 5,
-      "vpos": 1683,
       "date": 1227809033,
+      "no": 5,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 1683,
+      "thread": "1227651486",
       "content": "I try to hear what you say"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 6,
-      "vpos": 2278,
       "date": 1227809033,
+      "no": 6,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 2278,
+      "thread": "1227651486",
       "content": "So I pray"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 7,
-      "vpos": 2492,
       "date": 1227809033,
+      "no": 7,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 2492,
+      "thread": "1227651486",
       "content": "But you`re fadin away"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 8,
-      "vpos": 2955,
       "date": 1227809033,
+      "no": 8,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 2955,
+      "thread": "1227651486",
       "content": "Don`t go and break my fragile heart"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 9,
-      "vpos": 3582,
       "date": 1227809033,
+      "no": 9,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 3582,
+      "thread": "1227651486",
       "content": "We won`t fall apart"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 10,
-      "vpos": 3898,
       "date": 1227809033,
+      "no": 10,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 3898,
+      "thread": "1227651486",
       "content": "`Cause you`re my only star"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 11,
-      "vpos": 4917,
       "date": 1227809033,
+      "no": 11,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 4917,
+      "thread": "1227651486",
       "content": "I wonder why my tears come at night"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 12,
-      "vpos": 5289,
       "date": 1227809033,
+      "no": 12,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 5289,
+      "thread": "1227651486",
       "content": "Calling you, so like a little child"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 13,
-      "vpos": 5643,
       "date": 1227809033,
+      "no": 13,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 5643,
+      "thread": "1227651486",
       "content": "All the things you have in mind"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 14,
-      "vpos": 5963,
       "date": 1227809033,
+      "no": 14,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 5963,
+      "thread": "1227651486",
       "content": "I wish I could see you insides"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 15,
-      "vpos": 6308,
       "date": 1227809033,
+      "no": 15,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 6308,
+      "thread": "1227651486",
       "content": "My love, you`ve got to feel it"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 16,
-      "vpos": 6630,
       "date": 1227809033,
+      "no": 16,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 6630,
+      "thread": "1227651486",
       "content": "And if we put our trust in you and me"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 17,
-      "vpos": 6982,
       "date": 1227809033,
+      "no": 17,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 6982,
+      "thread": "1227651486",
       "content": "You know what our lives would be"
     }
   },
   {
     "chat": {
-      "thread": "1227651486",
-      "fork": 1,
-      "no": 18,
-      "vpos": 7283,
       "date": 1227809033,
+      "no": 18,
+      "fork": 1,
       "mail": "green shita small",
+      "vpos": 7283,
+      "thread": "1227651486",
       "content": "Oh, you are the one I believe"
     }
   },
@@ -236,31 +236,31 @@
   },
   {
     "thread": {
+      "server_time": 1528790701,
+      "ticket": "0x2bc733c7",
       "resultcode": 0,
       "thread": "1227651486",
-      "server_time": 1528790701,
       "last_res": 440,
-      "ticket": "0x2bc733c7",
       "revision": 1
     }
   },
   {
     "leaf": {
-      "thread": "1227651486",
-      "count": 386
+      "count": 386,
+      "thread": "1227651486"
     }
   },
   {
     "leaf": {
+      "count": 54,
       "thread": "1227651486",
-      "leaf": 1,
-      "count": 54
+      "leaf": 1
     }
   },
   {
     "global_num_res": {
-      "thread": "1227651486",
-      "num_res": 440
+      "num_res": 440,
+      "thread": "1227651486"
     }
   },
   {
@@ -275,11 +275,11 @@
   },
   {
     "thread": {
+      "server_time": 1528790701,
+      "ticket": "0x2bc733c7",
       "resultcode": 0,
       "thread": "1227651486",
-      "server_time": 1528790701,
       "last_res": 440,
-      "ticket": "0x2bc733c7",
       "revision": 1
     }
   },
@@ -293,7 +293,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "最後まで見るといいよ"
+      "content": "끝까지 보면 괜찮아"
     }
   },
   {
@@ -306,7 +306,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "見るに耐えないｗ"
+      "content": "보다 못한 w"
     }
   },
   {
@@ -320,7 +320,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "なるほど。凝っているな。"
+      "content": "그렇군요. 열중하고 있구나."
     }
   },
   {
@@ -334,7 +334,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "しかし何人が辿り着けるか・・・・"
+      "content": "그러나 몇몇이 도착할 수 있는지 ...."
     }
   },
   {
@@ -345,7 +345,7 @@
       "vpos": "9617",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "？"
+      "content": "?"
     }
   },
   {
@@ -359,7 +359,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "みえねえｗｗｗｗ"
+      "content": "みえねえ wwww"
     }
   },
   {
@@ -372,7 +372,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "ズレすぎワロタwww"
+      "content": "엇갈림 와로 타 www"
     }
   },
   {
@@ -398,7 +398,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "低スペックだと逆に見づらいｗｗｗｗ"
+      "content": "저 스펙이라고 반대로 잘 보이지 않는 wwww"
     }
   },
   {
@@ -411,7 +411,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "ナンなんだよここｗｗｗｗｗ"
+      "content": "할머니 야 여기 wwwww"
     }
   },
   {
@@ -424,7 +424,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "ｗｗｗ"
+      "content": "www"
     }
   },
   {
@@ -437,7 +437,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "酷い"
+      "content": "심한"
     }
   },
   {
@@ -450,7 +450,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "目細めると普通ｗ"
+      "content": "눈 細める하면 보통 w"
     }
   },
   {
@@ -463,7 +463,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "モザイクｗ"
+      "content": "모자이크 w"
     }
   },
   {
@@ -476,7 +476,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "あれ？ｗ"
+      "content": "어? w"
     }
   },
   {
@@ -489,7 +489,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "？"
+      "content": "?"
     }
   },
   {
@@ -502,7 +502,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "確かに目細めたら中々ｗｗｗｗ"
+      "content": "확실히 눈 가늘게하면 꽤 wwww"
     }
   },
   {
@@ -528,7 +528,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "実は見終わると高音質Ebullient futureの動画へと飛ばされる仕様だったという。でもリンク先が今はｓ（ｒ"
+      "content": "사실보고 끝날와 고음질 Ebullient future 동영상으로 날아간다 사양이었다고한다. 하지만 링크가 지금은 s (r"
     }
   },
   {
@@ -541,7 +541,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "神!!!"
+      "content": "하나님 !!!"
     }
   },
   {
@@ -554,7 +554,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "神降臨了"
+      "content": "하나님 강림 료"
     }
   },
   {
@@ -567,7 +567,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "ほとんどモザイクで見えない（泣"
+      "content": "대부분 모자이크에 보이지 않는 (엉엉"
     }
   },
   {
@@ -580,7 +580,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "寧ろ携帯レベル!?"
+      "content": "오히려 휴대 수준!?"
     }
   },
   {
@@ -593,7 +593,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "目が痛いですサー"
+      "content": "눈이 아파요 선생님"
     }
   },
   {
@@ -606,7 +606,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "ピーぴーいってるぞｗｗｗ"
+      "content": "삐 삐 말하고있는거야 www"
     }
   },
   {
@@ -619,7 +619,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "かなりずれてる"
+      "content": "상당히 어긋나있는"
     }
   },
   {
@@ -632,7 +632,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "画質良い"
+      "content": "화질 좋은"
     }
   },
   {
@@ -645,7 +645,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "あれ・・・フルボリュームのはずだが・・・"
+      "content": "있는 ... 전체 볼륨 텐데 ..."
     }
   },
   {
@@ -658,7 +658,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "これはひどい"
+      "content": "이 끔찍한"
     }
   },
   {
@@ -670,7 +670,7 @@
       "vpos": "2440",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "しかもズレまくってるｗ"
+      "content": "게다가 위화감 마구 w"
     }
   },
   {
@@ -683,7 +683,7 @@
       "vpos": "1653",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "超画質じゃねえかｗ"
+      "content": "초 화질 잖아 w"
     }
   },
   {
@@ -695,7 +695,7 @@
       "vpos": "1518",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "すっげえｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "すげえ wwwwwwwwwwwwwwww"
     }
   },
   {
@@ -707,7 +707,7 @@
       "vpos": "1318",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "確かに超画質ｗｗｗｗｗ"
+      "content": "확실히 초 화질 wwwww"
     }
   },
   {
@@ -719,7 +719,7 @@
       "vpos": "2988",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "モザイクかかりまくりじゃねえかｗ"
+      "content": "모자이크 소요 마구 잖아 w"
     }
   },
   {
@@ -733,7 +733,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "corei7でｗｗｗ"
+      "content": "corei7에서 www"
     }
   },
   {
@@ -745,7 +745,7 @@
       "vpos": "5847",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "誰だマイリスいれたのｗｗｗｗｗｗｗ"
+      "content": "누구 마이리스트 넣은의 wwwwwww"
     }
   },
   {
@@ -771,7 +771,7 @@
       "vpos": "2144",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "神速バッファ理解ｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "神速 버퍼 이해 wwwwwwwwwww"
     }
   },
   {
@@ -793,7 +793,7 @@
       "vpos": "964",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "画質吹いたw"
+      "content": "화질 뿜었다 w"
     }
   },
   {
@@ -805,7 +805,7 @@
       "vpos": "3402",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ケータイ画質ww"
+      "content": "휴대폰 화질 ww"
     }
   },
   {
@@ -818,7 +818,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "神速バッファｗｗｗｗ"
+      "content": "神速 버퍼 wwww"
     }
   },
   {
@@ -830,7 +830,7 @@
       "vpos": "5344",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ネタですか"
+      "content": "재료입니까"
     }
   },
   {
@@ -842,7 +842,7 @@
       "vpos": "565",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "はいいいい！？"
+      "content": "는 いいいい! ?"
     }
   },
   {
@@ -854,7 +854,7 @@
       "vpos": "898",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "最低画質ｗｗｗｗｗ"
+      "content": "최저 화질 wwwww"
     }
   },
   {
@@ -867,7 +867,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "ELISA 2nd LIVE　オメ☆"
+      "content": "ELISA 2nd LIVE 오매 ☆"
     }
   },
   {
@@ -901,7 +901,7 @@
       "vpos": "2813",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "なんてモザイクｗｗｗ"
+      "content": "다니 모자이크 www"
     }
   },
   {
@@ -913,7 +913,7 @@
       "vpos": "394",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "これ何話？"
+      "content": "이것은 무엇 화?"
     }
   },
   {
@@ -925,7 +925,7 @@
       "vpos": "2628",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "クオリティの高いジグソーパズル"
+      "content": "고품질의 퍼즐"
     }
   },
   {
@@ -937,7 +937,7 @@
       "vpos": "5514",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "洗濯屋ケンちゃん"
+      "content": "세탁소 켄"
     }
   },
   {
@@ -949,7 +949,7 @@
       "vpos": "1484",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ひどいｗｗｗｗｗｗｗｗｗ"
+      "content": "심한 wwwwwwwww"
     }
   },
   {
@@ -971,7 +971,7 @@
       "vpos": "1620",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "超画質すげぇ・・・"
+      "content": "초 화질 굉장히 ..."
     }
   },
   {
@@ -983,7 +983,7 @@
       "vpos": "2144",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "AMラジオ音質"
+      "content": "AM 라디오 음질"
     }
   },
   {
@@ -995,7 +995,7 @@
       "vpos": "2420",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "みにくｗ"
+      "content": "추 w"
     }
   },
   {
@@ -1008,7 +1008,7 @@
       "vpos": "3607",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "あれ…俺ケータイで見てたっけ…？"
+      "content": "있는 ... 나 휴대폰으로보고 했었지 ...?"
     }
   },
   {
@@ -1030,7 +1030,7 @@
       "vpos": "290",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "神速吹いたｗｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "神速 뿜었다 wwwwwwwwwwww"
     }
   },
   {
@@ -1042,7 +1042,7 @@
       "vpos": "2634",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "マイリス入れてる６人何者だｗｗｗｗ"
+      "content": "마이리스트 넣고있는 6 명의 누구냐 wwww"
     }
   },
   {
@@ -1054,7 +1054,7 @@
       "vpos": "1460",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "これはｗｗｗｗｗｗｗ"
+      "content": "이것은 wwwwwww"
     }
   },
   {
@@ -1066,7 +1066,7 @@
       "vpos": "640",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "wwwwwwwwwwwwwwwwwwww"
     }
   },
   {
@@ -1078,7 +1078,7 @@
       "vpos": "1638",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "素晴らしい"
+      "content": "멋진"
     }
   },
   {
@@ -1102,7 +1102,7 @@
       "vpos": "3035",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "音ｗｗｗ"
+      "content": "소리 www"
     }
   },
   {
@@ -1114,7 +1114,7 @@
       "vpos": "3769",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "鬼畜だろｗｗｗ"
+      "content": "귀축 것 www"
     }
   },
   {
@@ -1127,7 +1127,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "いやいやｗｗｗ"
+      "content": "아니 아니 www"
     }
   },
   {
@@ -1140,7 +1140,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "子のも"
+      "content": "아이도"
     }
   },
   {
@@ -1153,7 +1153,7 @@
       "vpos": "5316",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "今、アートを感じた"
+      "content": "지금 예술을 느꼈다"
     }
   },
   {
@@ -1165,7 +1165,7 @@
       "vpos": "1303",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ワロタ"
+      "content": "웃었다"
     }
   },
   {
@@ -1177,7 +1177,7 @@
       "vpos": "1400",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "うえあ"
+      "content": "웨어"
     }
   },
   {
@@ -1189,7 +1189,7 @@
       "vpos": "4874",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "平成10年でつか？"
+      "content": "1998 년 언제입니까?"
     }
   },
   {
@@ -1201,7 +1201,7 @@
       "vpos": "5218",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "確かに超画質"
+      "content": "확실히 초 화질"
     }
   },
   {
@@ -1225,7 +1225,7 @@
       "vpos": "1465",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "超ひどいｗｗ"
+      "content": "매우 심한 ww"
     }
   },
   {
@@ -1237,7 +1237,7 @@
       "vpos": "1730",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ひどすぎるｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "너무 심하다 wwwwwwwwwwwwwwwww"
     }
   },
   {
@@ -1249,7 +1249,7 @@
       "vpos": "364",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "！？"
+      "content": "! ?"
     }
   },
   {
@@ -1261,7 +1261,7 @@
       "vpos": "1213",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ひでぇえええええええｗｗｗ"
+      "content": "ひでぇえええええええ www"
     }
   },
   {
@@ -1273,7 +1273,7 @@
       "vpos": "2564",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "歪みなさすぎｗｗｗｗｗ"
+      "content": "왜곡 너무없는 wwwww"
     }
   },
   {
@@ -1286,7 +1286,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "音質も紙"
+      "content": "음질도 종이"
     }
   },
   {
@@ -1298,7 +1298,7 @@
       "vpos": "1305",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "うわ・・・ｗ"
+      "content": "와우 ... w"
     }
   },
   {
@@ -1311,7 +1311,7 @@
       "vpos": "2227",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ええええええ"
+      "content": "좋아 좋아 좋아"
     }
   },
   {
@@ -1323,7 +1323,7 @@
       "vpos": "1154",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "はええｗｗｗｗｗｗ"
+      "content": "는 좋아 wwwwww"
     }
   },
   {
@@ -1347,7 +1347,7 @@
       "vpos": "1422",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "最低画質"
+      "content": "최저 화질"
     }
   },
   {
@@ -1373,7 +1373,7 @@
       "vpos": "891",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ひでえｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "ひでえ wwwwwwwwwwwww"
     }
   },
   {
@@ -1386,7 +1386,7 @@
       "vpos": "2141",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "これは神が質"
+      "content": "이것은 神が質"
     }
   },
   {
@@ -1398,7 +1398,7 @@
       "vpos": "3338",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "謎のエロさｗｗｗｗｗｗ"
+      "content": "수수께끼의 에로 wwwwww"
     }
   },
   {
@@ -1410,7 +1410,7 @@
       "vpos": "1566",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "なんだって！？"
+      "content": "뭐라고! ?"
     }
   },
   {
@@ -1423,7 +1423,7 @@
       "vpos": "1312",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "流石の超画質ｗｗｗｗｗ"
+      "content": "과연 울트라 화질 wwwww"
     }
   },
   {
@@ -1437,7 +1437,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "PCスペック云々の問題じゃねぇぞコレｗｗｗｗｗ"
+      "content": "PC 스펙 운운의 문제가 아니야거야 이거 wwwww"
     }
   },
   {
@@ -1449,7 +1449,7 @@
       "vpos": "5646",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "音どうにかしてくれｗｗｗｗ"
+      "content": "소리 처리 해줍니다 wwww"
     }
   },
   {
@@ -1484,7 +1484,7 @@
       "vpos": "1907",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "なんだこれｗｗｗｗ"
+      "content": "뭐야 이것 wwww"
     }
   },
   {
@@ -1533,7 +1533,7 @@
       "vpos": "3268",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "神すぎてよく見えない"
+      "content": "하나님 불과 잘 보이지 않는"
     }
   },
   {
@@ -1557,7 +1557,7 @@
       "vpos": "4006",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "すげえええええｗｗｗマイリスに入れてるやつらは難なんだｗ"
+      "content": "すげえええええ www 마이리스트에 넣어 놈들은 어려움이야 w"
     }
   },
   {
@@ -1570,7 +1570,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "何がなんだかｗ"
+      "content": "뭐가 뭔지 w"
     }
   },
   {
@@ -1583,7 +1583,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "キワミシリーズ思い出した"
+      "content": "키와미시리즈 기억"
     }
   },
   {
@@ -1596,7 +1596,7 @@
       "vpos": "1233",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "超画質だｗｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "초 화질이다 wwwwwwwwwwww"
     }
   },
   {
@@ -1609,7 +1609,7 @@
       "vpos": "1760",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "超画質超音質ｗｗｗｗ"
+      "content": "초 화질 초 음질 wwww"
     }
   },
   {
@@ -1622,7 +1622,7 @@
       "vpos": "5909",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "歌詞おつｗｗｗ"
+      "content": "가사 을이 www"
     }
   },
   {
@@ -1634,7 +1634,7 @@
       "vpos": "1881",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "wwwwwwwwwwwwwwwwww"
     }
   },
   {
@@ -1646,7 +1646,7 @@
       "vpos": "4352",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ずれすぎｗｗｗｗｗｗｗｗ"
+      "content": "ずれすぎ wwwwwwww"
     }
   },
   {
@@ -1658,7 +1658,7 @@
       "vpos": "379",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": " 神速バッファ"
+      "content": "神速 버퍼"
     }
   },
   {
@@ -1671,7 +1671,7 @@
       "vpos": "1883",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "神画質ｗｗｗｗｗｗ"
+      "content": "하나님 화질 wwwwww"
     }
   },
   {
@@ -1683,7 +1683,7 @@
       "vpos": "2220",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "音質くらい残しておけｪ･･･"
+      "content": "음질 정도 남겨두면 명 ..."
     }
   },
   {
@@ -1696,7 +1696,7 @@
       "vpos": "2141",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "神速だなｗｗｗｗ"
+      "content": "神速구나 wwww"
     }
   },
   {
@@ -1709,7 +1709,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "これは流石に"
+      "content": "이것은 과연"
     }
   },
   {
@@ -1721,7 +1721,7 @@
       "vpos": "753",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ｗｗｗｗｗｗｗ"
+      "content": "wwwwwww"
     }
   },
   {
@@ -1734,7 +1734,7 @@
       "vpos": "1476",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ひでえええｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "ひでえええ wwwwwwwwwww"
     }
   },
   {
@@ -1747,7 +1747,7 @@
       "vpos": "3537",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "これはわろたｗｗｗｗｗｗｗ"
+      "content": "이것은 웃었다 wwwwwww"
     }
   },
   {
@@ -1760,7 +1760,7 @@
       "vpos": "5474",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "神画質ですねわかります"
+      "content": "하나님 화질군요 압니다"
     }
   },
   {
@@ -1772,7 +1772,7 @@
       "vpos": "2299",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "涙で前がみえない・・・ｗ"
+      "content": "눈물이 앞이 보이지 않는 ... w"
     }
   },
   {
@@ -1785,7 +1785,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "１０年前はこんなもんだったｗ"
+      "content": "10 년 전에는 이런 것이였다 w"
     }
   },
   {
@@ -1797,7 +1797,7 @@
       "vpos": "620",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "うわｗｗｗ"
+      "content": "와우 www"
     }
   },
   {
@@ -1809,7 +1809,7 @@
       "vpos": "1188",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "なんというくそ画質ｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "뭐라고 똥 화질 wwwwwwwwwwwww"
     }
   },
   {
@@ -1822,7 +1822,7 @@
       "vpos": "1393",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "携帯よりひどいｗｗｗ"
+      "content": "휴대 더 심한 www"
     }
   },
   {
@@ -1846,7 +1846,7 @@
       "vpos": "3746",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "こら凄いわｗｗｗｗ"
+      "content": "이거 굉장 해요 wwww"
     }
   },
   {
@@ -1858,7 +1858,7 @@
       "vpos": "2780",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "おっと、水に落としちまった"
+      "content": "남편, 물에 빠뜨려 버렸다"
     }
   },
   {
@@ -1870,7 +1870,7 @@
       "vpos": "3069",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "そっちの超画質かｗｗｗｗ"
+      "content": "그쪽 초 화질 또는 wwww"
     }
   },
   {
@@ -1883,7 +1883,7 @@
       "vpos": "2666",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "なるほど超画質wwww"
+      "content": "과연 울트라 화질 wwww"
     }
   },
   {
@@ -1895,7 +1895,7 @@
       "vpos": "1230",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "読み込みはえええええｗｗｗｗｗｗｗ"
+      "content": "로드 はえええええ wwwwwww"
     }
   },
   {
@@ -1907,7 +1907,7 @@
       "vpos": "1038",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "すげえｗｗ"
+      "content": "멋쟁이 ww"
     }
   },
   {
@@ -1932,7 +1932,7 @@
       "vpos": "2871",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "なんというｗ"
+      "content": "뭐라고 w"
     }
   },
   {
@@ -1944,7 +1944,7 @@
       "vpos": "1080",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "これは…紙画質だな…"
+      "content": "이것은 ... 종이 화질 이구나 ..."
     }
   },
   {
@@ -1956,7 +1956,7 @@
       "vpos": "1493",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "超画質ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "초 화질 wwwwwwwwwwwwwww"
     }
   },
   {
@@ -1968,7 +1968,7 @@
       "vpos": "2715",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "俺のスピーカーが泣いてる"
+      "content": "내 스피커가 울고"
     }
   },
   {
@@ -1981,7 +1981,7 @@
       "vpos": "4204",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ｗｗｗｗｗｗｗ"
+      "content": "wwwwwww"
     }
   },
   {
@@ -1993,7 +1993,7 @@
       "vpos": "3765",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "モザイクレベルｗｗｗｗｗｗｗ"
+      "content": "모자이크 수준 wwwwwww"
     }
   },
   {
@@ -2006,7 +2006,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "真空管ラジオ・・・"
+      "content": "진공관 라디오 ..."
     }
   },
   {
@@ -2018,7 +2018,7 @@
       "vpos": "780",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ワロタｗｗｗ"
+      "content": "와로 타 www"
     }
   },
   {
@@ -2030,7 +2030,7 @@
       "vpos": "2146",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "そういう意味かｗｗｗｗ"
+      "content": "그런 의미인가 wwww"
     }
   },
   {
@@ -2042,7 +2042,7 @@
       "vpos": "5400",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ずれてるえええ"
+      "content": "어긋나있는 에에에"
     }
   },
   {
@@ -2054,7 +2054,7 @@
       "vpos": "1213",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "まじぱねえ"
+      "content": "마지빠 응"
     }
   },
   {
@@ -2067,7 +2067,7 @@
       "vpos": "126",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "神画質ｋｔｋｒ"
+      "content": "하나님 화질 ktkr"
     }
   },
   {
@@ -2079,7 +2079,7 @@
       "vpos": "3063",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "くそわろたｗｗｗｗｗｗｗｗｗ"
+      "content": "쿠소와로타 wwwwwwwww"
     }
   },
   {
@@ -2091,7 +2091,7 @@
       "vpos": "960",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "画質ｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "화질 wwwwwwwwwwwww"
     }
   },
   {
@@ -2103,7 +2103,7 @@
       "vpos": "2526",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "画質ｗ"
+      "content": "화질 w"
     }
   },
   {
@@ -2116,7 +2116,7 @@
       "vpos": "240",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "馬鹿にしすぎだろｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "바보 취급하고 있는거야 wwwwwwwwwww"
     }
   },
   {
@@ -2129,7 +2129,7 @@
       "vpos": "4866",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "処理落ちしとるがｗｗｗｗ"
+      "content": "처리 떨어지지 잡기 만 wwww"
     }
   },
   {
@@ -2141,7 +2141,7 @@
       "vpos": "5644",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "神画質ｗｗｗｗｗ"
+      "content": "하나님 화질 wwwww"
     }
   },
   {
@@ -2153,7 +2153,7 @@
       "vpos": "1586",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ｗｗｗｗ"
+      "content": "wwww"
     }
   },
   {
@@ -2165,7 +2165,7 @@
       "vpos": "3013",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "詐欺ｗ"
+      "content": "사기 w"
     }
   },
   {
@@ -2177,7 +2177,7 @@
       "vpos": "3545",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "超画質ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "초 화질 wwwwwwwwwwwwwww"
     }
   },
   {
@@ -2189,7 +2189,7 @@
       "vpos": "2340",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "こらああああああああああああああああああああああああああああああ"
+      "content": "이봐 아 아 아 아 아 아 아 아 아 아 아 아 아 아 아"
     }
   },
   {
@@ -2213,7 +2213,7 @@
       "vpos": "648",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ｗｗｗｗｗｗｗｗｗｗ"
+      "content": "wwwwwwwwww"
     }
   },
   {
@@ -2225,7 +2225,7 @@
       "vpos": "1196",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "これはひでえｗｗｗｗｗｗ"
+      "content": "이것은 ひでえ wwwwww"
     }
   },
   {
@@ -2237,7 +2237,7 @@
       "vpos": "2278",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "超画質わろたｑｗｗｗｗ"
+      "content": "초 화질 웃었다 qwwww"
     }
   },
   {
@@ -2259,7 +2259,7 @@
       "vpos": "1764",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "画質パネエw"
+      "content": "화질 빠네에 w"
     }
   },
   {
@@ -2272,7 +2272,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "高画質とは言ってないからな・・・。"
+      "content": "고화질 거라고는 말 없으니까 ...."
     }
   },
   {
@@ -2284,7 +2284,7 @@
       "vpos": "3232",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "糸が見えない"
+      "content": "실이 보이지 않는"
     }
   },
   {
@@ -2296,7 +2296,7 @@
       "vpos": "4893",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "メガネ取るとキレイ"
+      "content": "안경 타고 깨끗하게"
     }
   },
   {
@@ -2308,7 +2308,7 @@
       "vpos": "2813",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "確かに超画質だけどｗｗｗ"
+      "content": "확실히 초 화질이지만 www"
     }
   },
   {
@@ -2320,7 +2320,7 @@
       "vpos": "3421",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "むしろオシャレじゃね？"
+      "content": "오히려 멋진 아냐?"
     }
   },
   {
@@ -2332,7 +2332,7 @@
       "vpos": "4829",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "１０ｍ離れてみるといける"
+      "content": "10m 떨어져 보면 갈"
     }
   },
   {
@@ -2344,7 +2344,7 @@
       "vpos": "3074",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "これはｗｗｗｗｗｗｗｗｗｗ"
+      "content": "이것은 wwwwwwwwww"
     }
   },
   {
@@ -2358,7 +2358,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "ダーク♂尺余り"
+      "content": "다크 ♂ 척여"
     }
   },
   {
@@ -2394,7 +2394,7 @@
       "vpos": "4953",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "何故上げる気になった！"
+      "content": "왜 올리는 느낌이 들었다!"
     }
   },
   {
@@ -2406,7 +2406,7 @@
       "vpos": "1486",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "wwwwwwwwwww"
     }
   },
   {
@@ -2419,7 +2419,7 @@
       "vpos": "1213",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "温室以外は完璧だな"
+      "content": "온실 이외 완벽 하구나"
     }
   },
   {
@@ -2432,7 +2432,7 @@
       "vpos": "2937",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "バカにしてんのかｗｗｗ"
+      "content": "바보 취급하고있어인가 www"
     }
   },
   {
@@ -2445,7 +2445,7 @@
       "vpos": "3417",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "すげえw"
+      "content": "멋쟁이 w"
     }
   },
   {
@@ -2458,7 +2458,7 @@
       "vpos": "3417",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "著作権まで考慮してるとはw"
+      "content": "저작권까지 고려하고 있다고는 w"
     }
   },
   {
@@ -2470,7 +2470,7 @@
       "vpos": "5213",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "あれ・・・画面が滲んで見える・・・！？"
+      "content": "있는 ... 화면이 번져 보이는 ...! ?"
     }
   },
   {
@@ -2483,7 +2483,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "誰か分からんくなってるｗｗｗｗ"
+      "content": "누군가 分からんく되고있는 wwww"
     }
   },
   {
@@ -2511,7 +2511,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "ここまでひどいと逆に笑える"
+      "content": "여기까지 심하면 오히려 웃기는"
     }
   },
   {
@@ -2523,7 +2523,7 @@
       "vpos": "1820",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "今日１番笑ったｗｗｗｗｗｗｗ"
+      "content": "오늘 1 번 웃었다 wwwwwww"
     }
   },
   {
@@ -2536,7 +2536,7 @@
       "vpos": "933",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "！？"
+      "content": "! ?"
     }
   },
   {
@@ -2549,7 +2549,7 @@
       "vpos": "1493",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ひっでｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "ひで wwwwwwwwwww"
     }
   },
   {
@@ -2562,7 +2562,7 @@
       "vpos": "3133",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "画質下げるとモザイクアートになるのかｗｗｗ"
+      "content": "화질 낮추면 모자이크 될지 www"
     }
   },
   {
@@ -2576,7 +2576,7 @@
       "vpos": "1173",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "神きたあああああああああああああああああああああああああああああああああ"
+      "content": "하나님 北아 아 아 아 아 아 아 아 아 아 아 아 아 아 아 아 아"
     }
   },
   {
@@ -2589,7 +2589,7 @@
       "vpos": "900",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "wwwwwwwwwwwwwww"
     }
   },
   {
@@ -2601,7 +2601,7 @@
       "vpos": "1593",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "超画質すぎるｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "초 화질 너무 wwwwwwwwwwwwww"
     }
   },
   {
@@ -2614,7 +2614,7 @@
       "vpos": "1606",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "神画質ｗｗｗｗｗｗｗｗ"
+      "content": "하나님 화질 wwwwwwww"
     }
   },
   {
@@ -2627,7 +2627,7 @@
       "vpos": "4800",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "驚異的なマイリス率ｗｗｗｗｗｗｗ"
+      "content": "엄청난 마이리스트 비율 wwwwwww"
     }
   },
   {
@@ -2653,7 +2653,7 @@
       "vpos": "4243",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "超画質ｗ"
+      "content": "초 화질 w"
     }
   },
   {
@@ -2665,7 +2665,7 @@
       "vpos": "3221",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "シャフトに謝れｗ"
+      "content": "샤프트에 사과 w"
     }
   },
   {
@@ -2677,7 +2677,7 @@
       "vpos": "1260",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ダイヤルアップ専用ｗｗ"
+      "content": "전화 접속 전용 ww"
     }
   },
   {
@@ -2689,7 +2689,7 @@
       "vpos": "3016",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ひでｗｗｗｗｗｗｗ"
+      "content": "히로 wwwwwww"
     }
   },
   {
@@ -2702,7 +2702,7 @@
       "vpos": "3900",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "超画質把握"
+      "content": "초 화질 파악"
     }
   },
   {
@@ -2715,7 +2715,7 @@
       "vpos": "561",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "！？"
+      "content": "! ?"
     }
   },
   {
@@ -2727,7 +2727,7 @@
       "vpos": "3640",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "確かに超画質ｗｗｗｗｗ"
+      "content": "확실히 초 화질 wwwww"
     }
   },
   {
@@ -2740,7 +2740,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "マイリスはなんなんだよｗｗｗ"
+      "content": "마이리스트는 무엇이야 www"
     }
   },
   {
@@ -2753,7 +2753,7 @@
       "vpos": "1573",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "この動画の要領教えろｗｗｗ"
+      "content": "이 동영상의 요령 가르쳐라 www"
     }
   },
   {
@@ -2765,7 +2765,7 @@
       "vpos": "4040",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "これはｗｗ超画質すぎるｗｗｗｗｗｗ"
+      "content": "이것은 ww 초 화질 너무 wwwwww"
     }
   },
   {
@@ -2777,7 +2777,7 @@
       "vpos": "4793",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ラジオｗｗｗ"
+      "content": "라디오 www"
     }
   },
   {
@@ -2789,7 +2789,7 @@
       "vpos": "1271",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "エコノミーでこの画質かと思ったww"
+      "content": "이코노미이 화질 않을까 생각 ww"
     }
   },
   {
@@ -2801,7 +2801,7 @@
       "vpos": "4072",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ひっでえｗｗｗｗ"
+      "content": "ひでえ wwww"
     }
   },
   {
@@ -2815,7 +2815,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "マイリス入れた奴誰だよwwwww"
+      "content": "마이리스트 넣은 놈 누구야 wwwww"
     }
   },
   {
@@ -2827,7 +2827,7 @@
       "vpos": "5143",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "あれ？俺泣いてんのかな？画面がゆがんでる"
+      "content": "어? 나는 울고있어 일까? 화면이 왜곡 데루"
     }
   },
   {
@@ -2841,7 +2841,7 @@
       "vpos": "3748",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "誰が『高』画質と言った？"
+      "content": "누가 &quot;높음&quot;화질라고?"
     }
   },
   {
@@ -2853,7 +2853,7 @@
       "vpos": "4440",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ある意味神ｗｗｗｗｗ"
+      "content": "어떤 의미 하나님 wwwww"
     }
   },
   {
@@ -2866,7 +2866,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "酔うんだがｗｗｗ"
+      "content": "취지만 www"
     }
   },
   {
@@ -2879,7 +2879,7 @@
       "vpos": "768",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "gasituｗｗｗｗ"
+      "content": "gasituwwww"
     }
   },
   {
@@ -2891,7 +2891,7 @@
       "vpos": "3866",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "これはいい釣り"
+      "content": "이것은 좋은 낚시"
     }
   },
   {
@@ -2915,7 +2915,7 @@
       "vpos": "3978",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "クッソ汚ねぇwwwwwwwwwww"
+      "content": "젠장 오염 없지 wwwwwwwwwww"
     }
   },
   {
@@ -2927,7 +2927,7 @@
       "vpos": "5589",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "著作権考慮ﾜﾛﾀ"
+      "content": "저작권 고려 웃었다"
     }
   },
   {
@@ -2940,7 +2940,7 @@
       "vpos": "4160",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "謎のw"
+      "content": "수수께끼의 w"
     }
   },
   {
@@ -2952,7 +2952,7 @@
       "vpos": "73",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "目悪い奴、離れて見ると……？"
+      "content": "눈 나쁜 놈, 멀리 보면 ......?"
     }
   },
   {
@@ -2964,7 +2964,7 @@
       "vpos": "846",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ｗｗｗｗ"
+      "content": "wwww"
     }
   },
   {
@@ -2978,7 +2978,7 @@
       "vpos": "4758",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "おい･･･なんかいやらしいぞ"
+      "content": "이봐 ... 뭔가 불쾌한거야"
     }
   },
   {
@@ -2990,7 +2990,7 @@
       "vpos": "1155",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "みえねええええｗｗ"
+      "content": "보이지 ねええええ ww"
     }
   },
   {
@@ -3002,7 +3002,7 @@
       "vpos": "3086",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "オｗｗトｗｗズｗｗレ"
+      "content": "오 ww 트 ww 스 ww 레"
     }
   },
   {
@@ -3026,7 +3026,7 @@
       "vpos": "1693",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "みえねぇｗｗｗ"
+      "content": "보이지 이군요 www"
     }
   },
   {
@@ -3039,7 +3039,7 @@
       "vpos": "771",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "わろた"
+      "content": "웃었다"
     }
   },
   {
@@ -3052,7 +3052,7 @@
       "vpos": "3321",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "何も見えねぇｗｗｗ"
+      "content": "아무것도 보이지 이군요 www"
     }
   },
   {
@@ -3065,7 +3065,7 @@
       "vpos": "4312",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "英語どこｗｗｗｗ"
+      "content": "영어 어디에 wwww"
     }
   },
   {
@@ -3077,7 +3077,7 @@
       "vpos": "3897",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "モザイクｗｗｗ"
+      "content": "모자이크 www"
     }
   },
   {
@@ -3090,7 +3090,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "歌詞ｗｗｗありがとうｗｗｗ"
+      "content": "가사 www 감사 www"
     }
   },
   {
@@ -3102,7 +3102,7 @@
       "vpos": "3890",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "超画質ｗｗｗｗ神画質ｗｗｗｗ理解ｗｗｗｗｗ"
+      "content": "초 화질 wwww 하나님 화질 wwww 이해 wwwww"
     }
   },
   {
@@ -3114,7 +3114,7 @@
       "vpos": "2782",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "超画質すぎるｗｗｗｗｗｗｗｗｗｗ"
+      "content": "초 화질 너무 wwwwwwwwww"
     }
   },
   {
@@ -3126,7 +3126,7 @@
       "vpos": "4150",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "っはwwwww"
+      "content": "ㅅ은 wwwww"
     }
   },
   {
@@ -3138,7 +3138,7 @@
       "vpos": "1469",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "何事だｗｗｗｗ"
+      "content": "무슨 일이야 wwww"
     }
   },
   {
@@ -3162,7 +3162,7 @@
       "vpos": "4223",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ブロックノイズアート"
+      "content": "블록 노이즈 아트"
     }
   },
   {
@@ -3186,7 +3186,7 @@
       "vpos": "3895",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ここまで酷いの初めて見たｗｗｗ"
+      "content": "여기까지 지독한 처음봤을 www"
     }
   },
   {
@@ -3198,7 +3198,7 @@
       "vpos": "933",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "騙されたｗｗｗｗｗコンタクトとってくる"
+      "content": "속았다 wwwww 연락처 잡아 온다"
     }
   },
   {
@@ -3210,7 +3210,7 @@
       "vpos": "2472",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "超(低)画質"
+      "content": "초 (낮은) 화질"
     }
   },
   {
@@ -3223,7 +3223,7 @@
       "vpos": "3883",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "まって画質どうすたｗｗｗｗｗｗ"
+      "content": "기다리고 화질 어떻게해야했다 wwwwww"
     }
   },
   {
@@ -3236,7 +3236,7 @@
       "vpos": "4563",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "こっちひっでぇｗｗｗｗｗｗｗｗｗ"
+      "content": "여기 ひでぇ wwwwwwwww"
     }
   },
   {
@@ -3249,7 +3249,7 @@
       "vpos": "143",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "※メガネを外すと綺麗です"
+      "content": "※ 안경을 제외하면 깨끗합니다"
     }
   },
   {
@@ -3261,7 +3261,7 @@
       "vpos": "3522",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "涙で画面が滲んでみえるよ"
+      "content": "눈물로 화면이 번져 보이는거야"
     }
   },
   {
@@ -3273,7 +3273,7 @@
       "vpos": "613",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "VHSで１０回位ダビング繰り返したような"
+      "content": "VHS에서 10 회 정도 더빙 반복듯한"
     }
   },
   {
@@ -3286,7 +3286,7 @@
       "vpos": "3726",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "変態画質"
+      "content": "변태 화질"
     }
   },
   {
@@ -3298,7 +3298,7 @@
       "vpos": "5367",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "トレス動画にすごくいいよこれ"
+      "content": "토레스 동영상 무척 좋아 이것"
     }
   },
   {
@@ -3310,7 +3310,7 @@
       "vpos": "3609",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ここまで酷いと逆にすげえｗｗ"
+      "content": "여기까지 심하면 반대로 멋쟁이 ww"
     }
   },
   {
@@ -3322,7 +3322,7 @@
       "vpos": "1848",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "読み込み3秒w"
+      "content": "로드 3 초 w"
     }
   },
   {
@@ -3334,7 +3334,7 @@
       "vpos": "1623",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ファミコン画質！"
+      "content": "선 화질!"
     }
   },
   {
@@ -3346,7 +3346,7 @@
       "vpos": "2825",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "モザイクでワロタ"
+      "content": "모자이크로 웃었다"
     }
   },
   {
@@ -3359,7 +3359,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "神画質過ぎて見れない"
+      "content": "하나님 화질 지나서 볼 수없는"
     }
   },
   {
@@ -3372,7 +3372,7 @@
       "vpos": "689",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ひどすぎるｗｗｗｗｗ"
+      "content": "너무 심하다 wwwww"
     }
   },
   {
@@ -3385,7 +3385,7 @@
       "vpos": "771",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "超（低）画質"
+      "content": "초 (낮은) 화질"
     }
   },
   {
@@ -3398,7 +3398,7 @@
       "vpos": "4429",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ノイズなんとかしろｗｗｗｗｗｗｗ"
+      "content": "노이즈 어떻게 든해라 wwwwwww"
     }
   },
   {
@@ -3411,7 +3411,7 @@
       "vpos": "5797",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "よく見るとズレまくってんじゃねぇかｗｗｗｗ"
+      "content": "잘 보면 위화감 마구거야 잖아 wwww"
     }
   },
   {
@@ -3425,7 +3425,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "そして尺余り"
+      "content": "그리고 척여"
     }
   },
   {
@@ -3438,7 +3438,7 @@
       "vpos": "5835",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "視力悪いけどメガネ外しても画質良くならなかった動画はこれが初めてだｗｗｗ"
+      "content": "시력 나쁘지만 안경 분리해서 화질 좋아지지 않았다 동영상은 이번이 처음이다 www"
     }
   },
   {
@@ -3450,7 +3450,7 @@
       "vpos": "4482",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "モザイクｗｗｗｗｗ"
+      "content": "모자이크 wwwww"
     }
   },
   {
@@ -3464,7 +3464,7 @@
       "vpos": "543",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "wwwwwwwwwwwwwwwwwww"
     }
   },
   {
@@ -3478,7 +3478,7 @@
       "vpos": "1059",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "音質すらｗｗｗｗｗｗｗｗｗ"
+      "content": "음질조차 wwwwwwwww"
     }
   },
   {
@@ -3492,7 +3492,7 @@
       "vpos": "3175",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ノイズくっそｗｗｗｗｗｗｗｗｗｗ"
+      "content": "노이즈 젠장 wwwwwwwwww"
     }
   },
   {
@@ -3504,7 +3504,7 @@
       "vpos": "1271",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "超(良い意味でとは言っていない)"
+      "content": "초 (좋은 의미로는 말하고 있지 않다)"
     }
   },
   {
@@ -3516,7 +3516,7 @@
       "vpos": "4107",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "お前らの初見を再現してんだろ"
+      "content": "너희들의 첫보고를 재현 이겠지"
     }
   },
   {
@@ -3528,7 +3528,7 @@
       "vpos": "72",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "メガネ外したらマジで画質上がったわｗｗｗｗ"
+      "content": "안경 분리하면 정말 화질 오른거야 wwww"
     }
   },
   {
@@ -3540,7 +3540,7 @@
       "vpos": "1346",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "バッファ早すぎｗｗｗ"
+      "content": "버퍼 너무 일찍 www"
     }
   },
   {
@@ -3552,7 +3552,7 @@
       "vpos": "2570",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "文字なんてなかった"
+      "content": "문자 따윈 없었던"
     }
   },
   {
@@ -3564,7 +3564,7 @@
       "vpos": "4496",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "文字よめねぇｗｗｗ"
+      "content": "문자 며느리 이군요 www"
     }
   },
   {
@@ -3576,7 +3576,7 @@
       "vpos": "5940",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "音ズレひどすぎｗ"
+      "content": "소리 엇갈림 ひどすぎ w"
     }
   },
   {
@@ -3589,7 +3589,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "もう色々と適当すぎｗｗｗｗ"
+      "content": "또 다양하게 적용 너무 wwww"
     }
   },
   {
@@ -3602,7 +3602,7 @@
       "anonymity": "1",
       "thread": "1227651486",
       "leaf": "1",
-      "content": "タイトル消えたｗｗｗ"
+      "content": "제목 사라진 www"
     }
   },
   {
@@ -3624,7 +3624,7 @@
       "vpos": "63",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "読み込み速すぎて見えねぇｗｗｗｗｗ"
+      "content": "읽기 너무 빨리 보이지 있잖아 wwwww"
     }
   },
   {
@@ -3636,7 +3636,7 @@
       "vpos": "2803",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ブロックノイズとかいうレベルじゃなかったｗｗｗ"
+      "content": "블록 노이즈 라든가 수준이 아니었던 www"
     }
   },
   {
@@ -3663,7 +3663,7 @@
       "vpos": "712",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ｗｗｗｗ"
+      "content": "wwww"
     }
   },
   {
@@ -3676,7 +3676,7 @@
       "vpos": "5973",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ひどいwwwwww"
+      "content": "심한 wwwwww"
     }
   },
   {
@@ -3690,7 +3690,7 @@
       "vpos": "657",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "おい"
+      "content": "야"
     }
   },
   {
@@ -3703,7 +3703,7 @@
       "vpos": "1448",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "せめて音質は普通以上にしろよwwwwwww"
+      "content": "적어도 음질은 보통 이상해라 wwwwwww"
     }
   },
   {
@@ -3717,7 +3717,7 @@
       "vpos": "1958",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ"
+      "content": "wwwwwwwwwwwwwwwwwwwwwwwwwwwwww"
     }
   },
   {
@@ -3730,7 +3730,7 @@
       "vpos": "2631",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "もうモザイクじゃねぇかw"
+      "content": "또 모자이크 잖아 w"
     }
   },
   {
@@ -3743,7 +3743,7 @@
       "vpos": "3578",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "超画質だな。間違ってはないけどw"
+      "content": "초 화질 다. 잘못은 없지만 w"
     }
   },
   {
@@ -3756,7 +3756,7 @@
       "vpos": "947",
       "anonymity": "1",
       "thread": "1227651486",
-      "content": "音質もひっでえなw"
+      "content": "음질도 ひでえ 인 w"
     }
   },
   {

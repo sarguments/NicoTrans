@@ -7,6 +7,7 @@ import com.google.cloud.translate.Translation;
 import com.saru.nicotrans.entity.Contents;
 import com.saru.nicotrans.entity.Item;
 import com.saru.nicotrans.entity.Pair;
+import com.saru.nicotrans.utils.TranslateUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,7 +39,7 @@ public class ManipulateService {
         List<Pair> pairList = new ArrayList<>();
         for (Item item: items) {
             Optional.ofNullable(item.findContents()).ifPresent(pairList::add);
-            log.info("find content : {}", item);
+//            log.info("find content : {}", item);
         }
 
         return pairList;
@@ -50,7 +51,7 @@ public class ManipulateService {
         try {
             translatedJson = mapper.writeValueAsString(items);
         } catch (JsonProcessingException e) {
-            log.info(e.getMessage());
+            log.debug(e.getMessage());
         }
         return translatedJson;
     }
@@ -64,11 +65,15 @@ public class ManipulateService {
         return toTransList;
     }
 
-    public void putTranslatedTexts(List<Pair> pairs, List<Translation> transTexts) {
+    public void putTranslatedTexts(List<Pair> pairs, List<String> toTransTexts) {
+        // 추출한 리스트 번역
+        List<Translation> translatedTexts = TranslateUtil.translateList(toTransTexts);
+        log.debug("translatedList size : {}", translatedTexts.size());
+
         for (int i = 0; i < pairs.size(); i++) {
             Pair pair = pairs.get(i);
             Contents contents = pair.getContents();
-            Translation translation = transTexts.get(i);
+            Translation translation = translatedTexts.get(i);
             contents.put(CONTENT.getName(), translation.getTranslatedText());
         }
     }
@@ -81,7 +86,7 @@ public class ManipulateService {
                     new TypeReference<List<Item>>() {
                     });
         } catch (IOException e) {
-            log.info(e.getMessage());
+            log.debug(e.getMessage());
         }
         return items;
     }
