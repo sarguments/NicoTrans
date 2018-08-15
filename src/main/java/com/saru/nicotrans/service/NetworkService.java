@@ -1,12 +1,10 @@
 package com.saru.nicotrans.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.http.impl.client.HttpClientBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
-import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -47,26 +45,6 @@ public class NetworkService {
 
         return toRequestHeaders;
     }
-
-    // TODO Bean으로
-    public RestTemplate makeRestTemplate() {
-        HttpComponentsClientHttpRequestFactory clientHttpRequestFactory = new HttpComponentsClientHttpRequestFactory(
-                HttpClientBuilder.create().build());
-        return new RestTemplate(clientHttpRequestFactory);
-    }
-
-//    public List<Item> responseJsonToItems(String response) {
-//        List<Item> items = null;
-//
-//        try {
-//            items = mapper.readValue(response,
-//                    new TypeReference<List<Item>>() {
-//                    });
-//        } catch (IOException e) {
-//            log.info(e.getMessage());
-//        }
-//        return items;
-//    }
 
     public HttpHeaders makeResponseHeaders() {
         HttpHeaders responseHeaders = new HttpHeaders();

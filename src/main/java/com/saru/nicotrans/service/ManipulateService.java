@@ -39,7 +39,6 @@ public class ManipulateService {
         List<Pair> pairList = new ArrayList<>();
         for (Item item: items) {
             Optional.ofNullable(item.findContents()).ifPresent(pairList::add);
-//            log.info("find content : {}", item);
         }
 
         return pairList;

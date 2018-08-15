@@ -7,6 +7,7 @@ import com.saru.nicotrans.service.NetworkService;
 import com.saru.nicotrans.utils.LogUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -16,8 +17,6 @@ import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
 
 @RestController
 public class PobiController {
@@ -31,34 +30,31 @@ public class PobiController {
     @Resource(name = "networkService")
     private NetworkService networkService;
 
+    // gzip으로 인해 아파치 라이브러리 사용 - HttpComponentsClientHttpRequestFactory
+    private RestTemplate gzipRestTemplate;
+
+    @Autowired
+    public PobiController(RestTemplate gzipRestTemplate) {
+        this.gzipRestTemplate = gzipRestTemplate;
+    }
+
     @GetMapping("")
     public String welcome() {
         return "Now Running...";
     }
 
     @PostMapping("/api.json")
-    public ResponseEntity<String> postWelcome(
+    public ResponseEntity<String> apiJson(
             @RequestHeader HttpHeaders httpHeaders,
-            @RequestBody String json) {
-
-        // 요청 헤더 출력
-        Set<Map.Entry<String, List<String>>> headers = httpHeaders.entrySet();
-        for (Map.Entry<String, List<String>> header: headers) {
-            log.info("key : value = {} : {}", header.getKey(), header.getValue());
-        }
-
-        // 요청 json 출력
-//        log.info("response json : {}", json);
+            @RequestBody String request) {
+        // 헤더 로그 출력
+        LogUtil.printRequestHeahder(httpHeaders);
 
         // 요청 헤더 생성 후 json과 같이 httpEntity 조합
-        HttpEntity<String> httpEntity = new HttpEntity<>(json, networkService.makeHeaders(httpHeaders));
-
-        // gzip으로 인해 아파치 라이브러리 사용 - HttpComponentsClientHttpRequestFactory
-        RestTemplate restTemplate = networkService.makeRestTemplate();
+        HttpEntity<String> httpEntity = new HttpEntity<>(request, networkService.makeHeaders(httpHeaders));
 
         // json 얻어온다
-        ResponseEntity<String> responseEntity = restTemplate.postForEntity(COMMENT_SERVER_URL, httpEntity, String.class);
-//        log.info(responseEntity.getBody());
+        ResponseEntity<String> responseEntity = gzipRestTemplate.postForEntity(COMMENT_SERVER_URL, httpEntity, String.class);
 
         //-------------------------------------------------------------------------------
 
@@ -89,4 +85,6 @@ public class PobiController {
         // 응답 content type 설정 후 브라우저로 ResponseEntity 리턴
         return new ResponseEntity<>(translatedJson, networkService.makeResponseHeaders(), HttpStatus.OK);
     }
+
+
 }
