@@ -1,5 +1,6 @@
 package com.saru.nicotrans.controllers;
 
+import com.google.cloud.translate.Translation;
 import com.saru.nicotrans.entity.Item;
 import com.saru.nicotrans.entity.Pair;
 import com.saru.nicotrans.service.ManipulateService;
@@ -42,7 +43,8 @@ public class PobiController {
         HttpEntity<String> httpEntity = new HttpEntity<>(request, networkService.makeHeaders(httpHeaders));
 
         // json 얻어오고 json to Items
-        List<Item> items = manipulateService.responseJsonToItems(networkService.getResponseEntity(httpEntity));
+        ResponseEntity<String> responseEntity = networkService.getResponseEntity(httpEntity);
+        List<Item> items = manipulateService.responseJsonToItems(responseEntity.getBody());
 
         // 번역할 텍스트의 원본 Content 참조와 텍스트 pairs로 추출
         List<Pair> pairs = manipulateService.itemsToPairs(items);
@@ -50,8 +52,9 @@ public class PobiController {
         // pairs에서 번역할 텍스트만 따로 추출
         List<String> toTransTexts = manipulateService.extractToTranslateTexts(pairs);
 
-        // 번역 텍스트 다시 put
-        manipulateService.getTranslatedTexts(pairs, toTransTexts);
+        // 번역후 텍스트 다시 put
+        List<Translation> translates = manipulateService.translateTexts(toTransTexts);
+        manipulateService.putTranslatedTexts(pairs, translates);
 
         // 응답 content type 설정 후 브라우저로 ResponseEntity 리턴
         return new ResponseEntity<>(manipulateService.itemsToJson(items),

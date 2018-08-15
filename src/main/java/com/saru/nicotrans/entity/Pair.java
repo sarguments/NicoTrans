@@ -28,6 +28,10 @@ public class Pair {
         this.msg = msg;
     }
 
+    public String getContentString() {
+        return contents.getContentString();
+    }
+
     @Override
     public String toString() {
         return "Pair{" +

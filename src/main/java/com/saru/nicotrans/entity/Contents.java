@@ -8,11 +8,14 @@ public class Contents extends HashMap<String, Object> {
     Pair findContent() {
         for (String s : keySet()) {
             if (s.equals(CONTENT.getName())) {
-                String originalText = (String) get(CONTENT.getName());
-                return new Pair(this, originalText);
+                return new Pair(this, getContentString());
             }
         }
 
         return null;
+    }
+
+    String getContentString() {
+        return (String) get(CONTENT.getName());
     }
 }

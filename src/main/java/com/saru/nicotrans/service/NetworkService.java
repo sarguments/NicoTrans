@@ -17,7 +17,6 @@ public class NetworkService {
     private static final String TEXT_JSON_CHARSET_UTF_8 = "text/json; charset=UTF-8";
     private static final String COMMENT_SERVER_URL = "http://pobi.god/api.json";
 
-    // TODO 컨트롤러에 있는 로직 서비스로 옮겨야 함
     private RestTemplate gzipRestTemplate;
 
     @Autowired
