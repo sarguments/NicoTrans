@@ -18,7 +18,7 @@ public class LogUtil {
     private static final Logger log = LoggerFactory.getLogger(LogUtil.class);
 
     public static void printTranslateText(List<Item> items) {
-        for (Item item: items) {
+        for (Item item : items) {
             Optional.ofNullable(item.get(CHAT.getName()))
                     .ifPresent(chat -> log.debug((String) chat.get(CONTENT.getName())));
         }

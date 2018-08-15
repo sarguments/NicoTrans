@@ -11,8 +11,8 @@ import com.saru.nicotrans.utils.TranslateUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -25,19 +25,15 @@ import static com.saru.nicotrans.typeAndConfig.ContentType.CONTENT;
 public class ManipulateService {
     private static final Logger log = LoggerFactory.getLogger(ManipulateService.class);
     private final ObjectMapper mapper;
-    private final RestTemplate restTemplate;
-
-    // TODO 컨트롤러에 있는 로직 서비스로 옮겨야 함
 
     @Autowired
-    public ManipulateService(ObjectMapper mapper, RestTemplate restTemplate) {
+    public ManipulateService(ObjectMapper mapper) {
         this.mapper = mapper;
-        this.restTemplate = restTemplate;
     }
 
     public List<Pair> itemsToPairs(List<Item> items) {
         List<Pair> pairList = new ArrayList<>();
-        for (Item item: items) {
+        for (Item item : items) {
             Optional.ofNullable(item.findContents()).ifPresent(pairList::add);
         }
 
@@ -57,7 +53,7 @@ public class ManipulateService {
 
     public List<String> extractToTranslateTexts(List<Pair> pairList) {
         List<String> toTransList = new ArrayList<>();
-        for (Pair pair: pairList) {
+        for (Pair pair : pairList) {
             toTransList.add(pair.getMsg());
         }
 
@@ -81,11 +77,11 @@ public class ManipulateService {
         }
     }
 
-    public List<Item> responseJsonToItems(String response) {
+    public List<Item> responseJsonToItems(ResponseEntity<String> responseEntity) {
         List<Item> items = null;
 
         try {
-            items = mapper.readValue(response,
+            items = mapper.readValue(responseEntity.getBody(),
                     new TypeReference<List<Item>>() {
                     });
         } catch (IOException e) {

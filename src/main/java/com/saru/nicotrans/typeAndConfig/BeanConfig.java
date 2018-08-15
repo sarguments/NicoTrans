@@ -19,7 +19,6 @@ public class BeanConfig {
         return new ObjectMapper();
     }
 
-    // TODO Bean으로
     @Bean
     public RestTemplate gzipRestTemplate() {
         HttpComponentsClientHttpRequestFactory clientHttpRequestFactory = new HttpComponentsClientHttpRequestFactory(

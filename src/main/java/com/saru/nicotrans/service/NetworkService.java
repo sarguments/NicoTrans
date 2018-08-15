@@ -1,10 +1,11 @@
 package com.saru.nicotrans.service;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -14,15 +15,14 @@ import java.util.Objects;
 public class NetworkService {
     private static final Logger log = LoggerFactory.getLogger(NetworkService.class);
     private static final String TEXT_JSON_CHARSET_UTF_8 = "text/json; charset=UTF-8";
-    private ObjectMapper mapper;
-    private RestTemplate restTemplate;
+    private static final String COMMENT_SERVER_URL = "http://pobi.god/api.json";
 
     // TODO 컨트롤러에 있는 로직 서비스로 옮겨야 함
+    private RestTemplate gzipRestTemplate;
 
     @Autowired
-    public NetworkService(ObjectMapper mapper, RestTemplate restTemplate) {
-        this.mapper = mapper;
-        this.restTemplate = restTemplate;
+    public NetworkService(RestTemplate gzipRestTemplate) {
+        this.gzipRestTemplate = gzipRestTemplate;
     }
 
     public HttpHeaders makeHeaders(HttpHeaders httpHeaders) {
@@ -50,5 +50,9 @@ public class NetworkService {
         HttpHeaders responseHeaders = new HttpHeaders();
         responseHeaders.set(HttpHeaders.CONTENT_TYPE, TEXT_JSON_CHARSET_UTF_8);
         return responseHeaders;
+    }
+
+    public ResponseEntity<String> getResponseEntity(HttpEntity<String> httpEntity) {
+        return gzipRestTemplate.postForEntity(COMMENT_SERVER_URL, httpEntity, String.class);
     }
 }
