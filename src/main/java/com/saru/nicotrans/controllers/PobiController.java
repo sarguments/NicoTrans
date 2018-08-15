@@ -74,7 +74,7 @@ public class PobiController {
         log.debug("toTransList size : {}", toTransTexts.size());
 
         // 번역 텍스트 다시 put
-        manipulateService.putTranslatedTexts(pairs, toTransTexts);
+        manipulateService.getTranslatedTexts(pairs, toTransTexts);
 
         // 테스트 번역 텍스트 출력
         LogUtil.printTranslateText(items);

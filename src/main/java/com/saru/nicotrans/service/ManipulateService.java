@@ -65,11 +65,15 @@ public class ManipulateService {
         return toTransList;
     }
 
-    public void putTranslatedTexts(List<Pair> pairs, List<String> toTransTexts) {
+    public void getTranslatedTexts(List<Pair> pairs, List<String> toTransTexts) {
         // 추출한 리스트 번역
         List<Translation> translatedTexts = TranslateUtil.translateList(toTransTexts);
         log.debug("translatedList size : {}", translatedTexts.size());
 
+        putTranslatedTexts(pairs, translatedTexts);
+    }
+
+    private void putTranslatedTexts(List<Pair> pairs, List<Translation> translatedTexts) {
         for (int i = 0; i < pairs.size(); i++) {
             Pair pair = pairs.get(i);
             Contents contents = pair.getContents();
