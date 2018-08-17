@@ -73,7 +73,6 @@ public class ManipulateService {
         }
     }
 
-    // TODO
     public List<Item> responseJsonToItems(String body) {
         List<Item> items = null;
 

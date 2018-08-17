@@ -17,6 +17,7 @@ import java.util.stream.Collectors;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertTrue;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -59,5 +60,14 @@ public class ManipulateServiceTest extends JsonTestInit {
         List<String> testContents = pairs.stream().map(Pair::getContentString)
                 .collect(Collectors.toList());
         assertThat(testContents, is(getAfterContents()));
+    }
+
+    @Test
+    public void translateResponseJson() {
+        String resultJSon = manipulateService.translateResponseJson(getJson());
+        assertTrue(resultJSon.contains("재료입니까"));
+        assertTrue(resultJSon.contains("VHS에서 10 회 정도 더빙 반복듯한"));
+        assertTrue(resultJSon.contains("초 화질 다. 잘못은 없지만 w"));
+        log.debug("resultJson : {}", resultJSon);
     }
 }
