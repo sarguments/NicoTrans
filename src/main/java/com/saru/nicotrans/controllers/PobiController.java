@@ -1,8 +1,5 @@
 package com.saru.nicotrans.controllers;
 
-import com.google.cloud.translate.Translation;
-import com.saru.nicotrans.entity.Item;
-import com.saru.nicotrans.entity.Pair;
 import com.saru.nicotrans.service.ManipulateService;
 import com.saru.nicotrans.service.NetworkService;
 import com.saru.nicotrans.utils.LogUtil;
@@ -15,7 +12,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.util.List;
 
 @RestController
 public class PobiController {
@@ -33,7 +29,7 @@ public class PobiController {
     }
 
     @PostMapping("/api.json")
-    public ResponseEntity<String> apiJson(
+    public ResponseEntity<String> translateComments(
             @RequestHeader HttpHeaders httpHeaders,
             @RequestBody String request) {
         // 헤더 로그 출력
@@ -43,21 +39,11 @@ public class PobiController {
         HttpEntity<String> httpEntity = new HttpEntity<>(request, networkService.makeHeaders(httpHeaders));
 
         // json 얻어오고 json to Items
-        ResponseEntity<String> responseEntity = networkService.getResponseEntity(httpEntity);
-        List<Item> items = manipulateService.responseJsonToItems(responseEntity.getBody());
-
-        // 번역할 텍스트의 원본 Content 참조와 텍스트 pairs로 추출
-        List<Pair> pairs = manipulateService.itemsToPairs(items);
-
-        // pairs에서 번역할 텍스트만 따로 추출
-        List<String> toTransTexts = manipulateService.extractToTranslateTexts(pairs);
-
-        // 번역후 텍스트 다시 put
-        List<Translation> translates = manipulateService.translateTexts(toTransTexts);
-        manipulateService.putTranslatedTexts(pairs, translates);
+        String responseJson = networkService.getResponseJson(httpEntity);
+        String translatedJson = manipulateService.translateResponseJson(responseJson);
 
         // 응답 content type 설정 후 브라우저로 ResponseEntity 리턴
-        return new ResponseEntity<>(manipulateService.itemsToJson(items),
+        return new ResponseEntity<>(translatedJson,
                 networkService.makeResponseHeaders(), HttpStatus.OK);
     }
 }

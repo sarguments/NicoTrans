@@ -51,7 +51,8 @@ public class NetworkService {
         return responseHeaders;
     }
 
-    public ResponseEntity<String> getResponseEntity(HttpEntity<String> httpEntity) {
-        return gzipRestTemplate.postForEntity(COMMENT_SERVER_URL, httpEntity, String.class);
+    public String getResponseJson(HttpEntity<String> httpEntity) {
+        ResponseEntity<String> response = gzipRestTemplate.postForEntity(COMMENT_SERVER_URL, httpEntity, String.class);
+        return response.getBody();
     }
 }

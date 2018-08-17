@@ -84,6 +84,23 @@ public class ManipulateService {
         } catch (IOException e) {
             log.debug(e.getMessage());
         }
+
         return items;
+    }
+
+    public String translateResponseJson(String responseJson) {
+        List<Item> items = responseJsonToItems(responseJson);
+
+        // 번역할 텍스트의 원본 Content 참조와 텍스트 pairs로 추출
+        List<Pair> pairs = itemsToPairs(items);
+
+        // pairs에서 번역할 텍스트만 따로 추출
+        List<String> toTransTexts = extractToTranslateTexts(pairs);
+
+        // 번역후 텍스트 다시 put
+        List<Translation> translates = translateTexts(toTransTexts);
+        putTranslatedTexts(pairs, translates);
+
+        return itemsToJson(items);
     }
 }
