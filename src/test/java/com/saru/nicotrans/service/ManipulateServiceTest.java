@@ -1,100 +1,73 @@
 package com.saru.nicotrans.service;
 
-import com.jayway.jsonpath.JsonPath;
+import com.google.cloud.translate.Translation;
+import com.saru.nicotrans.JsonTestInit;
 import com.saru.nicotrans.entity.Item;
 import com.saru.nicotrans.entity.Pair;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.util.ResourceUtils;
 
 import javax.annotation.Resource;
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
-import static org.mockito.ArgumentMatchers.anyList;
-import static org.mockito.Mockito.when;
+import static org.junit.Assert.assertTrue;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ManipulateServiceTest {
+public class ManipulateServiceTest extends JsonTestInit {
     private static final Logger log = LoggerFactory.getLogger(ManipulateServiceTest.class);
-
-    @Mock
-    private ManipulateService mockManService;
 
     @Resource(name = "manipulateService")
     private ManipulateService manipulateService;
 
-    private String json;
-    private String jsonResult;
-    private List<String> contents;
-
-    @Before
-    public void init() throws IOException {
-        MockitoAnnotations.initMocks(this);
-
-        File jsonFile = ResourceUtils.getFile("classpath:static/testJson.json");
-        File jsonResultFile = ResourceUtils.getFile("classpath:static/testJsonResult.json");
-
-        // TODO Read File Content
-        json = new String(Files.readAllBytes(jsonFile.toPath()));
-        jsonResult = new String(Files.readAllBytes(jsonResultFile.toPath()));
-
-        contents = JsonPath.parse(json)
-                .read("$..chat.content", List.class);
-    }
-
     @Test
-    public void jsonToItems() throws IOException {
-        log.debug("{}", json);
-
-        List<Item> items = manipulateService.responseJsonToItems(json);
+    public void jsonToItems() {
+        List<Item> items = manipulateService.responseJsonToItems(getJson());
         log.debug("items : {}", items);
     }
 
     @Test
-    public void extractPairs() {
-        List<Item> items = manipulateService.responseJsonToItems(json);
+    public void itemsToPairs() {
+        List<Item> items = manipulateService.responseJsonToItems(getJson());
         List<Pair> pairs = manipulateService.itemsToPairs(items);
         log.debug("pairs : {}", pairs);
     }
 
     @Test
-    public void extractTexts() {
-        List<Item> items = manipulateService.responseJsonToItems(json);
+    public void extractToTranslateTexts() {
+        List<Item> items = manipulateService.responseJsonToItems(getJson());
         List<Pair> pairs = manipulateService.itemsToPairs(items);
-        List<String> texts = manipulateService.extractToTranslateTexts(pairs);
-        log.debug("texts : {}", texts);
-
-        assertThat(texts, is(contents));
+        List<String> toTranslateTexts = manipulateService.extractToTranslateTexts(pairs);
+        assertThat(toTranslateTexts, is(getBeforeContents()));
     }
 
     @Test
-    public void itemsToJson() {
-        List<Item> items = manipulateService.responseJsonToItems(json);
-        String transedJson = manipulateService.itemsToJson(items);
-        log.debug("json : {}", transedJson);
+    public void putTranslatedTexts() {
+        List<Item> items = manipulateService.responseJsonToItems(getJson());
+        List<Pair> pairs = manipulateService.itemsToPairs(items);
+        List<String> toTranslateTexts = manipulateService.extractToTranslateTexts(pairs);
+        List<Translation> translates = manipulateService.translateTexts(toTranslateTexts);
+        manipulateService.putTranslatedTexts(pairs, translates);
+
+        // 페어 리스트에서 컨텐츠 객체 안에있는 컨텐트 스트링을 전부 꺼내서 리스트로 만든다.
+        List<String> testContents = pairs.stream().map(Pair::getContentString)
+                .collect(Collectors.toList());
+        assertThat(testContents, is(getAfterContents()));
     }
 
     @Test
-    public void printTranslateText() {
-        when(mockManService.itemsToJson(anyList()))
-                .thenReturn(jsonResult);
-
-        List<Item> items = manipulateService.responseJsonToItems(json);
-        String transedJson = mockManService.itemsToJson(items);
-
-        log.debug("transedJson : {}", transedJson);
+    public void translateResponseJson() {
+        String resultJSon = manipulateService.translateResponseJson(getJson());
+        assertTrue(resultJSon.contains("재료입니까"));
+        assertTrue(resultJSon.contains("VHS에서 10 회 정도 더빙 반복듯한"));
+        assertTrue(resultJSon.contains("초 화질 다. 잘못은 없지만 w"));
+        log.debug("resultJson : {}", resultJSon);
     }
 }

@@ -6,13 +6,13 @@ import static com.saru.nicotrans.typeAndConfig.ContentType.CONTENT;
 
 public class Contents extends HashMap<String, Object> {
     Pair findContent() {
-        for (String s: keySet()) {
-            if (s.equals(CONTENT.getName())) {
-                String originalText = (String) get(CONTENT.getName());
-                return new Pair(this, originalText);
-            }
-        }
+        // 키셋을 돌면서 "CONTENT" 를 찾은다음, "CONTENT" 의 레퍼런스와 코멘트 텍스트 리턴
+        return keySet().stream()
+                .filter(s -> s.equals(CONTENT.getName()))
+                .map(c -> new Pair(this, c)).findFirst().orElse(null);
+    }
 
-        return null;
+    String getContentString() {
+        return (String) get(CONTENT.getName());
     }
 }

@@ -12,7 +12,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -25,21 +24,16 @@ import static com.saru.nicotrans.typeAndConfig.ContentType.CONTENT;
 public class ManipulateService {
     private static final Logger log = LoggerFactory.getLogger(ManipulateService.class);
     private final ObjectMapper mapper;
-    private final RestTemplate restTemplate;
-
-    // TODO 컨트롤러에 있는 로직 서비스로 옮겨야 함
 
     @Autowired
-    public ManipulateService(ObjectMapper mapper, RestTemplate restTemplate) {
+    public ManipulateService(ObjectMapper mapper) {
         this.mapper = mapper;
-        this.restTemplate = restTemplate;
     }
 
     public List<Pair> itemsToPairs(List<Item> items) {
         List<Pair> pairList = new ArrayList<>();
-        for (Item item: items) {
+        for (Item item : items) {
             Optional.ofNullable(item.findContents()).ifPresent(pairList::add);
-//            log.info("find content : {}", item);
         }
 
         return pairList;
@@ -58,18 +52,19 @@ public class ManipulateService {
 
     public List<String> extractToTranslateTexts(List<Pair> pairList) {
         List<String> toTransList = new ArrayList<>();
-        for (Pair pair: pairList) {
-            toTransList.add(pair.getMsg());
+        for (Pair pair : pairList) {
+            toTransList.add(pair.getContentString());
         }
 
         return toTransList;
     }
 
-    public void putTranslatedTexts(List<Pair> pairs, List<String> toTransTexts) {
+    public List<Translation> translateTexts(List<String> toTransTexts) {
         // 추출한 리스트 번역
-        List<Translation> translatedTexts = TranslateUtil.translateList(toTransTexts);
-        log.debug("translatedList size : {}", translatedTexts.size());
+        return TranslateUtil.translateList(toTransTexts);
+    }
 
+    public void putTranslatedTexts(List<Pair> pairs, List<Translation> translatedTexts) {
         for (int i = 0; i < pairs.size(); i++) {
             Pair pair = pairs.get(i);
             Contents contents = pair.getContents();
@@ -78,16 +73,33 @@ public class ManipulateService {
         }
     }
 
-    public List<Item> responseJsonToItems(String response) {
+    public List<Item> responseJsonToItems(String body) {
         List<Item> items = null;
 
         try {
-            items = mapper.readValue(response,
+            items = mapper.readValue(body,
                     new TypeReference<List<Item>>() {
                     });
         } catch (IOException e) {
             log.debug(e.getMessage());
         }
+
         return items;
+    }
+
+    public String translateResponseJson(String responseJson) {
+        List<Item> items = responseJsonToItems(responseJson);
+
+        // 번역할 텍스트의 원본 Content 참조와 텍스트 pairs로 추출
+        List<Pair> pairs = itemsToPairs(items);
+
+        // pairs에서 번역할 텍스트만 따로 추출
+        List<String> toTransTexts = extractToTranslateTexts(pairs);
+
+        // 번역후 텍스트 다시 put
+        List<Translation> translates = translateTexts(toTransTexts);
+        putTranslatedTexts(pairs, translates);
+
+        return itemsToJson(items);
     }
 }
