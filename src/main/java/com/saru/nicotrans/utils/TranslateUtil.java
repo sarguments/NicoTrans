@@ -16,6 +16,7 @@ public class TranslateUtil {
     private static final Translate translate = TranslateOptions.newBuilder().build().getService();
 
     private TranslateUtil() {
+
     }
 
     public static List<Translation> translateList(List<String> sourceTexts) {

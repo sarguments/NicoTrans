@@ -1,4 +1,4 @@
-package com.saru.nicotrans.typeAndConfig;
+package com.saru.nicotrans.type_and_config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.impl.client.HttpClientBuilder;

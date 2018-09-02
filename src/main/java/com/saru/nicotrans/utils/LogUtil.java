@@ -11,11 +11,15 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 
-import static com.saru.nicotrans.typeAndConfig.ContentType.CHAT;
-import static com.saru.nicotrans.typeAndConfig.ContentType.CONTENT;
+import static com.saru.nicotrans.type_and_config.ContentType.CHAT;
+import static com.saru.nicotrans.type_and_config.ContentType.CONTENT;
 
 public class LogUtil {
     private static final Logger log = LoggerFactory.getLogger(LogUtil.class);
+
+    private LogUtil() {
+
+    }
 
     public static void printTranslateText(List<Item> items) {
         for (Item item : items) {

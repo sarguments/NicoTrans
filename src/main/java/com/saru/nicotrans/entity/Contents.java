@@ -2,7 +2,7 @@ package com.saru.nicotrans.entity;
 
 import java.util.HashMap;
 
-import static com.saru.nicotrans.typeAndConfig.ContentType.CONTENT;
+import static com.saru.nicotrans.type_and_config.ContentType.CONTENT;
 
 public class Contents extends HashMap<String, Object> {
     Pair findContent() {

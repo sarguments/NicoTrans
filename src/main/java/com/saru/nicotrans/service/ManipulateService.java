@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import static com.saru.nicotrans.typeAndConfig.ContentType.CONTENT;
+import static com.saru.nicotrans.type_and_config.ContentType.CONTENT;
 
 @Service
 public class ManipulateService {
@@ -39,7 +39,7 @@ public class ManipulateService {
         return pairList;
     }
 
-    public String itemsToJson(List<Item> items) {
+    private String itemsToJson(List<Item> items) {
         String translatedJson = null;
 
         try {

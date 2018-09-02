@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import static com.saru.nicotrans.typeAndConfig.ContentType.CHAT;
+import static com.saru.nicotrans.type_and_config.ContentType.CHAT;
 
 public class Item extends HashMap<String, Contents> {
     public Pair findContents() {
