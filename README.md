@@ -11,7 +11,8 @@
 export GOOGLE_APPLICATION_CREDENTIALS ...
 
 <Nginx config>
-/usr/local/etc/nginx/nginx.conf
+/usr/local/etc/nginx/nginx.conf - MAC
+/etc/nginx/nginx.conf - LINUX
 server {
     listen       80;
     server_name  localhost;
@@ -20,7 +21,7 @@ server {
     proxy_set_header   Host      $http_host;
     proxy_pass         http://127.0.0.1:8080;
     }
-}
+}iii
 
 <Host config>
 /etc/hosts
