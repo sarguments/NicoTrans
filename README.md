@@ -27,6 +27,4 @@ server {
 127.0.0.1   nmsg닷nicovideo.jp
 202닷248닷252닷234 pobi.god
 
-<Server port>
-server.port=8912
 ```
