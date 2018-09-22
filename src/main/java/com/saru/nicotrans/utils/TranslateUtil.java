@@ -4,11 +4,15 @@ import com.google.cloud.translate.Translate;
 import com.google.cloud.translate.TranslateOptions;
 import com.google.cloud.translate.Translation;
 import com.google.common.collect.Lists;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class TranslateUtil {
+    private static final Logger log = LoggerFactory.getLogger(TranslateUtil.class);
+
     private static final String JAPAN = "ja";
     private static final String KOREA = "ko";
     private static final int SPLIT_SIZE = 100;
@@ -19,6 +23,8 @@ public class TranslateUtil {
     }
 
     public static List<Translation> translateList(List<String> sourceTexts) {
+        log.debug("apikey : {}", TranslateOptions.getDefaultApiKey());
+
         Translate.TranslateOption srcLang = Translate.TranslateOption.sourceLanguage(JAPAN);
         Translate.TranslateOption tgtLang = Translate.TranslateOption.targetLanguage(KOREA);
 
