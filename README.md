@@ -11,7 +11,8 @@
 export GOOGLE_APPLICATION_CREDENTIALS ...
 
 <Nginx config>
-/usr/local/etc/nginx/nginx.conf
+/usr/local/etc/nginx/nginx.conf - MAC
+/etc/nginx/nginx.conf - LINUX
 server {
     listen       80;
     server_name  localhost;
