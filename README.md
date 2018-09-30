@@ -10,6 +10,9 @@
 <Google Cloud Translate auth>
 export GOOGLE_APPLICATION_CREDENTIALS ...
 
+<API key>
+GOOGLE_API_KEY ...
+
 <Nginx config>
 /usr/local/etc/nginx/nginx.conf - MAC
 /etc/nginx/nginx.conf - LINUX
