@@ -35,7 +35,7 @@ server {
 
 ## 원래 작동 순서
 1. http://nicovideo.jp/watch/sm5361236 와 같이 동영상 주소로 접속을 한다.
-2. 웹 페이지가 1차적으로 로딩이 되고 다시 브라우저에서 post 요청이 코멘트 서버인 nmsg.nicovideo.jp/Api.json 으로 간다.
+2. 웹 페이지가 1차적으로 로딩이 되고 다시 브라우저에서 post 요청이 코멘트 서버인 nmsg.nicovideo.jp/api.json 으로 간다.
 3. 코멘트 서버에서 해당 동영상에 맞는 코멘트를 json으로 리턴한다.
 4. 브라우저는 코멘트를 받아서 웹브라우저의 동영상 위에 렌더링 한다.
 
@@ -43,15 +43,15 @@ server {
 
 ## 프로젝트 작동 순서
 1. http://nicovideo.jp/watch/sm5361236 와 같이 동영상 주소로 접속을 한다.
-2. 웹 페이지가 1차적으로 로딩이 되고 다시 브라우저에서 post 요청이 코멘트 서버인 nmsg.nicovideo.jp/Api.json 으로 간다.
+2. 웹 페이지가 1차적으로 로딩이 되고 다시 브라우저에서 post 요청이 코멘트 서버인 nmsg.nicovideo.jp/api.json 으로 간다.
 3. nmsg.nicovideo.jp/Api.json 로의 요청이 host 설정에 의해 localhost:80 으로 간다.
 4. Localhost:80 으로 간 요청이 nginx에 의해 다시 localhost:8080으로 간다.
 5. 스프링부트 서버가 8080포트로의 요청을 받는다.
 6. 요청의 헤더를 사용해서 컨텐트 타입과 Origin 등의 정보가 담긴 일종의 복제된 헤더 객체를 생성하고, 원래 요청의 바디를 합쳐 HttpEntity 인스턴스를 생성한다.
 7. 생성한 인스턴스로 http://pobi.god/api.json에 요청을 보내서 json 객체를 스프링부트 서버로 받아온다. ( 여기서 https 때문에 문제 발생 )
-   * 원래 코멘트 서버의 url로 보내는게 아닌 http://pobi.god/api.json로 보내는 이유는 이전에 host 설정에 의해 다시 localhost:80으로 이동하기 때문이 다. host설정에 별도로 http://pobi.god/api.json을 202.248.252.234 을 가도록 설정해 두었다.
+   * 원래 코멘트 서버의 url로 보내는게 아닌 http://pobi.god/api.json 로 보내는 이유는 이전에 host 설정에 의해 다시 localhost:80으로 이동하기 때문이다. host설정에 별도로 http://pobi.god/api.json 을 202.248.252.234 으로 가도록 설정해 두었다.
    * 받아올때 아파치의 http 라이브러리를 사용해서 gzip으로 압축된 json 파일을 받는다.
-8. 받은 json을 List<Item> 형으로 역직렬화 한다. Item은 HashMap<String, Contents>을 확장한 객체이다.
+8. 받은 json을 List<Item> 형으로 역 직렬화 한다. Item은 HashMap<String, Contents>을 확장한 객체이다.
 9. List<Item>에서 Item의 key가 ‘content’ 인 value에 해당하는 Content 인스턴스를 찾는다. Contents는 HashMap<String, Object>을 확장한 객체이다.
 10. 찾은 Content 안에서 다시 key가 ‘content’인 요소를 찾아서 해당 요소의 레퍼런스와 value인 번역할 텍스트를 Pair클래스의 새로운 인스턴스로 반환한다.
 11. 그리고 이렇게 생성된 Pair 인스턴스들을 모아서 List<Pair>로 다시 반환한다.
