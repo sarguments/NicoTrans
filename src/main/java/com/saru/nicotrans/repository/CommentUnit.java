@@ -34,45 +34,20 @@ public class CommentUnit {
         return id;
     }
 
-    public CommentUnit setId(Long id) {
-        this.id = id;
-        return this;
-    }
-
     public String getReferer() {
         return referer;
-    }
-
-    public CommentUnit setReferer(String referer) {
-        this.referer = referer;
-        return this;
     }
 
     public int getCount() {
         return count;
     }
 
-    public CommentUnit setCount(int count) {
-        this.count = count;
-        return this;
-    }
-
     public String getOriginalJson() {
         return originalJson;
     }
 
-    public CommentUnit setOriginalJson(String originalJson) {
-        this.originalJson = originalJson;
-        return this;
-    }
-
     public String getTransJson() {
         return transJson;
-    }
-
-    public CommentUnit setTransJson(String transJson) {
-        this.transJson = transJson;
-        return this;
     }
 
     public CommentUnit update(int count, String translatedComment) {
