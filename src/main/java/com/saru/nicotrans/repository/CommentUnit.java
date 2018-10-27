@@ -4,6 +4,7 @@ import javax.persistence.*;
 import java.util.Objects;
 
 // TODO 코멘트 유닛 테스트 추가 해야
+// TODO Validation 추가
 @Entity
 public class CommentUnit {
     @Id
@@ -50,9 +51,10 @@ public class CommentUnit {
         return transJson;
     }
 
-    public CommentUnit update(int count, String translatedComment) {
+    public CommentUnit update(int count, String translatedComment, String originalJson) {
         this.count = count;
         this.transJson = translatedComment;
+        this.originalJson = originalJson;
         return this;
     }
 

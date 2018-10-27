@@ -53,6 +53,7 @@ public class ManipulateService {
             translatedJson = mapper.writeValueAsString(items);
         } catch (JsonProcessingException e) {
             log.debug(e.getMessage());
+            // 가TODO 요류처리를 완성해야 한다.
         }
         return translatedJson;
     }
@@ -97,6 +98,9 @@ public class ManipulateService {
     public String translateResponseJson(String responseJson, String referer) {
         List<Item> items = responseJsonToItems(responseJson);
 
+        // 갯수 체크용
+        int itemCount = items.size();
+
         // 번역할 텍스트의 원본 Content 참조와 텍스트 pairs로 추출
         List<Pair> pairs = itemsToPairs(items);
 
@@ -106,17 +110,18 @@ public class ManipulateService {
 
         // 없으면 번역
         if (commentUnit == null) {
-            return saveCommentProcess(referer, items, pairs);
+            // pairs에서 번역할 텍스트만 따로 추출
+            // TODO referer와 itemCount를 CommentInfo로 묶을 수 있을 것 같다.
+            String translatedJson = translateProcess(items, pairs);
+            return saveCommentProcess(referer, itemCount, translatedJson, responseJson);
         }
 
-        // 갯수 체크
-        int itemCount = items.size();
         int prevCount = commentUnit.getCount();
 
         // 기존과 다르면 번역한 후 갯수랑 같이 저장 후 json 리턴
         if (prevCount != itemCount) {
             String translatedJson = translateProcess(items, pairs);
-            updateComment(referer, itemCount, translatedJson);
+            updateComment(referer, itemCount, translatedJson, responseJson);
             return translatedJson;
         }
 
@@ -124,16 +129,13 @@ public class ManipulateService {
         return commentUnit.getTransJson();
     }
 
-    private String saveCommentProcess(String referer, List<Item> items, List<Pair> pairs) {
-        String translatedJson;// pairs에서 번역할 텍스트만 따로 추출
-        translatedJson = translateProcess(items, pairs);
-
-        // TODO 갯수랑 같이 저장
-        CommentUnit toSaveComment = new CommentUnitBuilder().setCount(items.size())
+    private String saveCommentProcess(String referer, int count, String translatedComment, String originalComment) {
+        CommentUnit toSaveComment = new CommentUnitBuilder().setCount(count)
                 .setReferer(referer)
-                .setTransJson(translatedJson).createCommentUnit();
+                .setTransJson(translatedComment)
+                .setOriginalJson(originalComment).createCommentUnit();
         saveComment(toSaveComment);
-        return translatedJson;
+        return translatedComment;
     }
 
     private String translateProcess(List<Item> items, List<Pair> pairs) {
@@ -157,8 +159,8 @@ public class ManipulateService {
         return commentUnitRepository.save(commentUnit);
     }
 
-    public CommentUnit updateComment(String referer, int count, String translatedComment) {
+    public CommentUnit updateComment(String referer, int count, String translatedComment, String originalComment) {
         CommentUnit commentUnit = findComment(referer);
-        return commentUnit.update(count, translatedComment);
+        return commentUnit.update(count, translatedComment, originalComment);
     }
 }

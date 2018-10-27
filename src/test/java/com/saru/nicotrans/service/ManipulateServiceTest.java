@@ -116,7 +116,7 @@ public class ManipulateServiceTest extends JsonTestInit {
         CommentUnit returnedComment = manipulateService.saveComment(commentUnit);
         assertThat(returnedComment, is(commentUnit));
 
-        returnedComment = manipulateService.updateComment("http://where.com", 10, "new trans");
+        returnedComment = manipulateService.updateComment("http://where.com", 10, "new trans", "ori");
         assertThat(returnedComment.getCount(), is(10));
 
         returnedComment = manipulateService.findComment("http://where.com");
