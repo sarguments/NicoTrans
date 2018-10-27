@@ -35,12 +35,15 @@ public class PobiController {
         // 헤더 로그 출력
         LogUtil.printRequestHeahder(httpHeaders);
 
+        // 레퍼러를 따로 보관해 놓는다.
+        String referer = httpHeaders.getFirst(HttpHeaders.REFERER);
+
         // 요청 헤더 생성 후 json과 같이 httpEntity 조합
         HttpEntity<String> httpEntity = new HttpEntity<>(request, networkService.makeHeaders(httpHeaders));
 
         // json 얻어오고 json to Items
         String responseJson = networkService.getResponseJson(httpEntity);
-        String translatedJson = manipulateService.translateResponseJson(responseJson);
+        String translatedJson = manipulateService.translateResponseJson(responseJson, referer);
 
         // 응답 content type 설정 후 브라우저로 ResponseEntity 리턴
         return new ResponseEntity<>(translatedJson,

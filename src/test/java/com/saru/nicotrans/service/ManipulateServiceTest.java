@@ -4,6 +4,8 @@ import com.google.cloud.translate.Translation;
 import com.saru.nicotrans.JsonTestInit;
 import com.saru.nicotrans.entity.Item;
 import com.saru.nicotrans.entity.Pair;
+import com.saru.nicotrans.repository.CommentUnit;
+import com.saru.nicotrans.repository.CommentUnitBuilder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -18,6 +20,8 @@ import java.util.stream.Collectors;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -64,10 +68,58 @@ public class ManipulateServiceTest extends JsonTestInit {
 
     @Test
     public void translateResponseJson() {
-        String resultJSon = manipulateService.translateResponseJson(getJson());
+        String resultJSon = manipulateService.translateResponseJson(getJson(), "test");
         assertTrue(resultJSon.contains("재료입니까"));
         assertTrue(resultJSon.contains("VHS에서 10 회 정도 더빙 반복듯한"));
         assertTrue(resultJSon.contains("초 화질 다. 잘못은 없지만 w"));
         log.debug("resultJson : {}", resultJSon);
+    }
+
+    @Test
+    public void checkRepositoryTest() {
+        CommentUnit commentUnit = new CommentUnitBuilder()
+                .setId(1L)
+                .setCount(1)
+                .setOriginalJson("ori")
+                .setReferer("http://where.com")
+                .setTransJson("trans").createCommentUnit();
+
+        ManipulateService mockManipulateService = mock(ManipulateService.class);
+        when(mockManipulateService.findComment("http://where.com")).thenReturn(commentUnit);
+        assertThat(mockManipulateService.findComment("http://where.com").getTransJson(), is("trans"));
+    }
+
+    @Test
+    public void saveRepositoryTest() {
+        CommentUnit commentUnit = new CommentUnitBuilder()
+                .setId(1L)
+                .setCount(1)
+                .setOriginalJson("ori")
+                .setReferer("http://where.com")
+                .setTransJson("trans").createCommentUnit();
+
+        ManipulateService mockManipulateService = mock(ManipulateService.class);
+        when(mockManipulateService.saveComment(commentUnit)).thenReturn(commentUnit);
+        CommentUnit returnedComment = mockManipulateService.saveComment(commentUnit);
+        assertThat(returnedComment, is(commentUnit));
+    }
+
+    @Test
+    public void updateRepositoryTest() {
+        CommentUnit commentUnit = new CommentUnitBuilder()
+                .setId(1L)
+                .setCount(1)
+                .setOriginalJson("ori")
+                .setReferer("http://where.com")
+                .setTransJson("trans").createCommentUnit();
+
+        CommentUnit returnedComment = manipulateService.saveComment(commentUnit);
+        assertThat(returnedComment, is(commentUnit));
+
+        returnedComment = manipulateService.updateComment("http://where.com", 10, "new trans");
+        assertThat(returnedComment.getCount(), is(10));
+
+        returnedComment = manipulateService.findComment("http://where.com");
+        assertThat(returnedComment.getCount(), is(10));
     }
 }

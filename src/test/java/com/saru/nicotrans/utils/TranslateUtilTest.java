@@ -14,7 +14,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 public class TranslateUtilTest extends JsonTestInit {
-    private ManipulateService manipulateService = new ManipulateService(new ObjectMapper());
+    private ManipulateService manipulateService = new ManipulateService(new ObjectMapper(), null);
 
     @Test
     public void translate() {
