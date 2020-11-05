@@ -1,6 +1,6 @@
-# nicoTransPrepare
+# nicoTrans
 
-## contribute by larry, gram(aka godDurin)
+## contributed by larry, gram
 
 <img width="882" alt="saru_key" src="https://user-images.githubusercontent.com/25028828/44003138-1cf4c94a-9e89-11e8-82dd-92fcb809a71c.png">
 
@@ -45,7 +45,7 @@ server {
 
 <Host config>
 /etc/hosts
-127.0.0.1   nmsg닷nicovideo.jp
+127.0.0.1   nmsg닷nicovideo닷jp
 202닷248닷252닷234 pobi.god
 
 ```
